@@ -7,7 +7,7 @@
 ![](../IMG/Roles%20de%20host.png)
 
 
-![](Servidores%20web.png)
+![](../IMG/Servidores%20web.png)
 
 ----
 
@@ -15,14 +15,14 @@
 
 **Conexión entre pares (P2P):** Es una red donde no hay un servidor central; cada computadora se conecta directamente con la otra. En este modelo, todos los dispositivos actúan como **cliente y servidor al mismo tiempo**, pudiendo compartir archivos o impresoras entre sí. Es ideal para redes muy pequeñas por su bajo costo, pero es difícil de asegurar y organizar cuando se agregan muchos equipos.
 
-![](P2P.png)
+![](../IMG/P2P.png)
 
 **Los dispositivos finales son los dispositivos con los que las personas estan familiarizados**.
 
 **Los dispositivos intermediarios se encargar de conectar los dispositivos finales, también conectan distintas redes LAN.**
 
 
-![](Dispositivos%20intermedio.png)
+![](../IMG/Dispositivos%20intermedio.png)
 
 ---
 
@@ -37,4 +37,4 @@ Son los canales físicos por donde viaja la información desde el origen al dest
 
 **Inalámbrico (Wi-Fi/Radio):** La información viaja por el aire usando **ondas electromagnéticas**.
 
-![](Medios%20de%20conexión.png)
+![](../IMG/Medios%20de%20conexión.png)
