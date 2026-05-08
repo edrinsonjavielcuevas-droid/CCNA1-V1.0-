@@ -2,16 +2,16 @@
 
  **Tolerancia a fallas:** Capacidad de la red para seguir funcionando aunque falle algún componente.
 
-![](Tolerancia%20a%20fallas.png)
+![](../IMG/Tolerancia%20a%20fallas.png)
 
  **Escalabilidad:** Capacidad de crecer rápidamente para admitir nuevos usuarios y aplicaciones sin afectar el rendimiento.
 
-![](Escalabilidad.png)
+![](../IMG/Escalabilidad.png)
 
  **Calidad de servicio (QoS):** Mecanismo para administrar el tráfico y asegurar que las aplicaciones críticas (como video o voz) tengan la prioridad necesaria.
 
-![](Calidad%20de%20servicio%20(QoS).png)
+![](../IMG/Calidad%20de%20servicio%20(QoS).png)
 
 **Seguridad:** Protección de la infraestructura y de los datos que viajan por ella contra accesos no autorizados.
 
-![](Seguridad%20de%20la%20red.png)
+![](../IMG/Seguridad%20de%20la%20red.png)
