@@ -3,7 +3,7 @@
 ---
 ----
 
-![](ICONOS%20DE%20REPRESENTACIÓN%20DE%20RED.png)
+![](../IMG/ICONOS%20DE%20REPRESENTACIÓN%20DE%20RED.png)
 
 | **Término**              | **Definición Simple**                                                 | **¿Dónde se encuentra?**    |
 | ------------------------ | --------------------------------------------------------------------- | --------------------------- |
@@ -23,11 +23,11 @@
 
 **Topología física.**
 
-![](Topologías%20de%20red%20físicas.png)
+![](../IMG/Topologías%20de%20red%20físicas.png)
 
 **Topología lógica**
 
-![](Topologia%20lógicas.png)
+![](../IMG/Topologia%20lógicas.png)
 
 ---
 
@@ -49,12 +49,12 @@
 **WAN**: Son redes de aréa amplia y suelen conectar distintas redes LAN.
 
 
-![](LAN%20VS%20WAN.png)
+![](../IMG/LAN%20VS%20WAN.png)
 
 **EL INTERNET:** No es más que una colección global de redes interconectadas entre sí
 ( Internetworks o internet para abreviar).
 
-![](EL%20INTERNET.png)
+![](../IMG/EL%20INTERNET.png)
 
 ### Niveles de Acceso a la Red
 
@@ -64,7 +64,7 @@
 
  **Internet:** Es **pública**. Acceso global para todo el mundo.
 
-![](Niveles%20de%20Acceso%20a%20la%20Red.png)
+![](../IMG/Niveles%20de%20Acceso%20a%20la%20Red.png)
 
 | **Tipo de Usuario** | **Tecnologías Comunes**                                | **Características Clave**                                                                                              |
 | ------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
@@ -75,7 +75,7 @@
 
 **Conexiones a internet domésticas y de oficinas pequeñas.**
 
-![](Conexiones%20a%20internet%20domésticas%20y%20de%20oficinas%20pequeñas.png)
+![](../IMG/Conexiones%20a%20internet%20domésticas%20y%20de%20oficinas%20pequeñas.png)
 
 Las conexiones domésticas varían según la tecnología: el **Cable** usa la misma infraestructura de la televisión para dar alta velocidad, mientras que el **DSL** utiliza la línea telefónica, siendo común el **ADSL**, donde descargas más rápido de lo que subes. El acceso **Celular** depende de la cobertura móvil y la capacidad de tu teléfono, el **Satelital** es la opción para zonas rurales sin cables pero requiere vista despejada al cielo, y el **Dial-up** es el método más antiguo y lento que funciona con cualquier línea telefónica básica.
 
@@ -83,7 +83,7 @@ Las conexiones domésticas varían según la tecnología: el **Cable** usa la mi
 
 **Conexiones a internet empresariales.**
 
-![](Conexiones%20para%20redes%20empresariales.png)
+![](../IMG/Conexiones%20para%20redes%20empresariales.png)
 
 Para las empresas, la conectividad se enfoca en la potencia y la exclusividad: las **Líneas Arrendadas** son circuitos privados reservados solo para la compañía, mientras que **Metro Ethernet** extiende la tecnología de alta velocidad de una oficina (LAN) a través de toda la ciudad (WAN). El **DSL empresarial** destaca por ser simétrico (SDSL), lo que significa que ofrece la misma velocidad para subir que para descargar archivos, y el servicio **Satelital** se mantiene como el respaldo de emergencia cuando no hay cables disponibles en la zona.
 
@@ -91,8 +91,8 @@ Para las empresas, la conectividad se enfoca en la potencia y la exclusividad: l
 
 **Redes Tradicionales:** Son aquellas donde cada router o switch se configura de forma individual y manual. No hay un "cerebro" central; cada equipo toma sus propias decisiones de tráfico basándose en su propia configuración. Es un modelo robusto, pero lento de gestionar cuando la red crece mucho, ya que requiere entrar dispositivo por dispositivo para hacer cambios.
 
-![](Redes%20tradicionales.png)
+![](../IMG/Redes%20tradicionales.png)
 
 **Redes Convergentes:** Es cuando diferentes tipos de datos (voz, video y archivos) viajan por la **misma infraestructura** de red. Antes, cada servicio necesitaba su propio cableado y reglas; ahora, todos comparten el mismo camino, lo que ahorra costos y facilita el mantenimiento.
 
-![](Redes%20convergentes.png)
+![](../IMG/Redes%20convergentes.png)
