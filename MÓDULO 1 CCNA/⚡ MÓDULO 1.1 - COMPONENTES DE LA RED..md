@@ -4,7 +4,7 @@
 **Roles de Host:** En una red global, todo dispositivo final conectado se clasifica como **host**, identificado unívocamente mediante una dirección **IP**. Estos operan bajo el modelo **Cliente-Servidor**, donde los servidores son infraestructuras que proporcionan servicios (web, correo, archivos) mediante software especializado, mientras que los clientes son los dispositivos que solicitan y visualizan dicha información. Cabe destacar que un mismo host puede ejecutar múltiples tipos de software cliente simultáneamente para interactuar con diversos servicios de red.
 
 
-![](Roles%20de%20host.png)
+![](../IMG/Roles%20de%20host.png)
 
 
 ![](Servidores%20web.png)
