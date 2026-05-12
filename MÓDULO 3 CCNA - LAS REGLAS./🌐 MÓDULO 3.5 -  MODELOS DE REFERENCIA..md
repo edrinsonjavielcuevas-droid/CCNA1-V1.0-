@@ -13,7 +13,7 @@
 
 **Es una lenguaje común para las maquinas, permitiendo que todos se entiendan.**
 
- ![](MODELOS%20DE%20RED%20UNIDOS.png)
+ ![](../IMG/MODELOS%20DE%20RED%20UNIDOS.png)
 
 ----
 
@@ -22,7 +22,7 @@
 Es un esquema que divide las funciones de una red en 7 capas para entender y gestionar mejor cómo los datos viajan  desde un dispositivo a otro. Cada capara tiene una tarea específica y trabaja con las capas de arriba o abajo para asegurar que la comunicación funcione correctamente.
 
 
-![](MODELO%20OSI.png)
+![](../IMG/MODELO%20OSI.png)
 
 
 ----
@@ -31,13 +31,13 @@ Es un esquema que divide las funciones de una red en 7 capas para entender y ges
 
 Este es basicamente el protocolo de internet actual y fue creado en la década de los setenta y se conoce como modelo de internet. Este mismo es un protocolo modelo porque describe las funciones que ocurren en cada capa de protocolos dentro de una suite TCP/IP y también es un ejemplo de modelo de referencia.
 
-![](Protocolo%20modelo%20TCPIP.png)
+![](../IMG/Protocolo%20modelo%20TCPIP.png)
 
 ---
 
 ### COMPARATIVA MODELO OSI VS TCP/IP
 
-![](OSI%20VS%20TCP.png)
+![](../IMG/OSI%20VS%20TCP.png)
 
 ###### ACTIVIDAD PRACTICA NOTA:
 
