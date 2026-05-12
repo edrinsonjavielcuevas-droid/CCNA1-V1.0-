@@ -36,11 +36,11 @@ Son la **estructura o el mapa**. Como enviar datos es un proceso muy complejo, l
 
 NOTA: Los dispositivos son ciegos, ellos solo pueden ver su propia informacion de por sí y para poder comunicarse con los demas usan los protocolos de red.
 
-![](Como%20vemos%20la%20red..jpg)
+![](../IMG/Como%20vemos%20la%20red..jpg)
 
-![](Protocolos.jpg)
+![](../IMG/Protocolos.jpg)
 
-![](PROTOCOLS.jpg)
+![](../IMG/PROTOCOLS.jpg)
 
 *La red es como un conjunto de protocolos que le permite a los dispositivos conectarse y comunicarse entre sí*
 
@@ -152,7 +152,7 @@ Para que los datos viajen con éxito, deben pasar por estos procesos.
 
 ---
 
-![](BITSSS.jpg)
+![](../IMG/BITSSS.jpg)
 
 Eso era el formato y el encapsulamiento del mensaje. 
 
@@ -182,4 +182,4 @@ En las topologías de red, los dispositivos se representan como **nodos** (círc
 * **Uso común:** Peticiones ARP para encontrar una dirección MAC en la red local.
 
 ---
- ![](FUSIONES.png)
+ ![](../IMG/FUSIONES.png)
