@@ -46,6 +46,7 @@ Estas entradas adicionales desempeñan varios roles dentro del conjunto TCP/IP .
 ### NOTA: 
 
 **Web (HTTP):** Puerto 80 / TCP es una conexión segura y confirmada.
+
 **Nombres (DNS):** Puerto 53 / UDP es una consulta rápida y directa.
 
 ---
