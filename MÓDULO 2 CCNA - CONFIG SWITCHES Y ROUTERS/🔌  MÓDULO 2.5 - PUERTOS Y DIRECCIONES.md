@@ -15,7 +15,7 @@ Las direcciones IP son fundamentales para identificar y permitir la comunicació
 
 Las comunicaciones de red se realizan a través de interfaces físicas que conectan dispositivos mediante diversos medios, como cables de cobre, fibra óptica o señales inalámbricas, cuya elección depende de la distancia, velocidad y costo requeridos. En el caso de los switches de capa 2, aunque sus puertos físicos no procesan direcciones IP, se utilizan las **Interfaces Virtuales de Switch (SVI)**, como la **VLAN1** predeterminada, para asignar una dirección IP al equipo; esto permite administrar el switch de forma remota sin afectar su funcionamiento básico de envío de datos.
 
-![](Interfaz%20y%20pueto.png)
+![](../IMG/Interfaz%20y%20pueto.png)
 
 **Medios de Red y sus Diferencias**
 
