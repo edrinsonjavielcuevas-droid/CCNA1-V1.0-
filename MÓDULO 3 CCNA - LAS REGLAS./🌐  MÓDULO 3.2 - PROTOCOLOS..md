@@ -26,7 +26,7 @@ Para que los dispositivos finales se comuniquen en red, deben cumplir un conjunt
 
 # Funciones de los Protocolos de Red
 
-![](IPDATOS.jpg)
+![](../IMG/IPDATOS.jpg)
 
 Los protocolos no solo son reglas, son los responsables de que el mensaje llegue sano y salvo desde tu PC hasta el servidor. 
 
@@ -54,7 +54,7 @@ Los protocolos no solo son reglas, son los responsables de que el mensaje llegue
 # Interacción de Protocolos
 
 
-![](INTERNETT.jpg)
+![](../IMG/INTERNETT.jpg)
 
 Para que una comunicación en red sea exitosa, los protocolos deben trabajar en conjunto. Cada uno tiene su propio formato y cumple una función distinta dentro del equipo.
 
