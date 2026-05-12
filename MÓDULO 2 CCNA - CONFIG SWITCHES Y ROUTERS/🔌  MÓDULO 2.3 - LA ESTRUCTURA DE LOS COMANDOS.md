@@ -2,7 +2,7 @@
 ---
 La estructura básica de un comando en Cisco IOS se compone de un **indicador** o prompt, seguido del **comando** principal, un espacio y, finalmente, una **palabra clave** (un parámetro específico ya definido por el sistema) o un **argumento** (un valor variable o dirección definida por el usuario). Para que el intérprete de la CLI procese la instrucción, es fundamental ingresar la sintaxis correcta en el modo de comando adecuado y presionar la tecla **Enter**, permitiendo así una administración precisa del dispositivo.
 
-![](Estructura%20de%20comandos.png)
+![](../IMG/Estructura%20de%20comandos.png)
 
 Para entender cómo escribir comandos en Cisco IOS, se utilizan convenciones visuales que indican qué partes son fijas y cuáles debes definir tú. La clave está en distinguir entre lo que el sistema exige literalmente y los datos variables que tú proporcionas, como direcciones IP o descripciones.
 
@@ -24,8 +24,8 @@ Para entender cómo escribir comandos en Cisco IOS, se utilizan convenciones vis
 
 #### TECLAS DE ACCESO RAPIDO.
 
-![](teclas%20rapidas.png)
+![](../IMG/teclas%20rapidas.png)
 
-![](teclas%20rap.png)
+![](../IMG/teclas%20rap.png)
 
-![](rapidas%20teclas.png)
+![](../IMG/rapidas%20teclas.png)
