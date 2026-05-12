@@ -1,7 +1,7 @@
 
 ## Conjuntos de protocolos de red:
 
-![](Suit%20de%20protocolos.jpg)
+![](../IMG/Suit%20de%20protocolos.jpg)
 
 Un conjunto de protocolos es un grupo de protocolos interrelacionados que trabajan juntos para permitir la comunicación. Se visualizan como una pila de protocolos (stack), donde las capas superiores dependen de los servicios de las capas inferiores.
 
@@ -17,11 +17,11 @@ Novell NetWare: Un conjunto de protocolos patentado desarrollado por Novell (obs
 
 ---
 
-![](Capas%20y%20Protocolos%20del%20Conjunto%20TCP-IP.jpg)
+![](../IMG/Capas%20y%20Protocolos%20del%20Conjunto%20TCP-IP.jpg)
 
 ### Capas TCP/IP
 
-![](Conjunto%20de%20TCPIP.jpg)
+![](../IMG/Conjunto%20de%20TCPIP.jpg)
 
 Para que un mensaje viaje, cada capa tiene sus propios "especialistas".
 
