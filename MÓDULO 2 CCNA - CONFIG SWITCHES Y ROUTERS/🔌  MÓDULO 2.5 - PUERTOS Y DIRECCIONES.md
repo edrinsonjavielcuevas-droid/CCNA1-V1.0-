@@ -44,5 +44,5 @@ Las comunicaciones de red se realizan a través de interfaces físicas que conec
 
 **Configuración de interfaz virtual de switch.**
 
-			![](interfaz%20virtual%20de%20switch.png)
+![](../IMG/interfaz%20virtual%20de%20switch.png)
 
