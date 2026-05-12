@@ -2,7 +2,7 @@
 ---
 Asignar un nombre de host único (**hostname**) es el primer paso crítico en la configuración, ya que permite identificar cada dispositivo de forma remota y evitar confusiones en la red. El nombre debe seguir una convención lógica que indique la ubicación o propósito del equipo (por ejemplo, su piso o función). Para configurarlo, se entra al modo de configuración global con `configure terminal` y se ejecuta el comando `hostname` seguido del nombre deseado; para borrarlo y volver al nombre de fábrica, se usa `no hostname`.
 
-![](NOMBRE%20DE%20HOST.png)
+![](../IMG/NOMBRE%20DE%20HOST.png)
 ### Pautas de Nomenclatura para Hosts
 
 |**Regla**|**Descripción**|
@@ -17,19 +17,19 @@ Para mantener la red segura, es obligatorio proteger todos los accesos (usuario,
 
 **CONFIGURACIÓN DE CONTRASEÑA**
 
-![](CONTRASEÑA%20DE%20MODO%20USUARIO.png)
+![](../IMG/CONTRASEÑA%20DE%20MODO%20USUARIO.png)
 
-![](MODO%20USUARIO%20%20CONTRASEÑA.png)
+![](../IMG/MODO%20USUARIO%20%20CONTRASEÑA.png)
 
-![](LIne%20virtual.png)
+![](../IMG/LIne%20virtual.png)
 
 **Encriptación de contraseña.**
 
-![](Encriptación%20de%20contraseña.png)
+![](../IMG/Encriptación%20de%20contraseña.png)
 
-![](Show%20running-config.png)
+![](../IMG/Show%20running-config.png)
 
-![](banner%20motd.png)
+![](../IMG/banner%20motd.png)
 
 **Comparación de Archivos de Configuración**
 
