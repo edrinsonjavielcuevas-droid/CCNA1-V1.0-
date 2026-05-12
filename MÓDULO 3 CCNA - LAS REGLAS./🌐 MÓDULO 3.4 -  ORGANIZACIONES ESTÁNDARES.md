@@ -1,6 +1,6 @@
 ### 3.4.1 Estándares Abiertos
 
-![](Estandares%20de%20internet.jpg)
+![](../IMG/Estandares%20de%20internet.jpg)
 
   **¿Qué son?**: Reglas comunes que todos los fabricantes deben seguir para que sus equipos se entiendan entre sí.
 
