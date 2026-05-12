@@ -10,8 +10,8 @@ Cisco IOS divide el acceso en dos niveles de seguridad: el **Modo EXEC de usuari
 | **Configuración de Líneas**   | Configurar el acceso (Consola, SSH, Telnet o Auxiliar).          | `Switch(config-line)#` |
 | **Configuración de Interfaz** | Configurar un puerto de switch o una interfaz de red específica. | `Switch(config-if)#`   |
 
-![](LINE%20CONSOLE%200.png)
+![](../IMG/LINE%20CONSOLE%200.png)
 
-![](END.png)
+![](../IMG/END.png)
 
-![](line%20vs%20if.png)
+![](../IMG/line%20vs%20if.png)
