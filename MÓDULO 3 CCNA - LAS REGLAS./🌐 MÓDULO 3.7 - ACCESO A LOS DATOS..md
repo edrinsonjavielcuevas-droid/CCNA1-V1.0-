@@ -26,7 +26,9 @@ Cuando dos dispositivos están en la **misma red IP**, la entrega de datos es di
 | **Alcance**          | **Extremo a extremo:** Desde el origen inicial hasta el destino final.          | **Salto a salto:** Entre dispositivos conectados directamente (ej. PC a Router).   |
 | **Comportamiento**   | **Permanece constante.** Las IPs de origen y destino no cambian en el trayecto. | **Cambia en cada salto.** Se reencapsula con nuevas MACs al pasar por cada router. |
 | **Propósito**        | Identificar la ubicación lógica del host en la red global.                      | Identificar la tarjeta de red (NIC) del siguiente dispositivo en el camino.        |
-| **Destino (Remoto)** | La dirección IP del **Host Final**.                                             | La dirección MAC del **Default Gateway** (interfaz del router).                    |
+| **Destino (Remoto)** | La dirección IP del **Host Final**.       
+| La dirección MAC del **Default Gateway** (interfaz del router).
+
 ![](../IMG/Encabezado%20de%20la%20trama.png)
 
 ### Direccionamiento IP Extremo a Extremo
@@ -57,6 +59,7 @@ Es como si quisieras enviar un paquete a otro país; no vas directamente a la ca
 | --------------------- | ------------------------------------------ | ----------------------------- | ------------------------------------------------------ |
 | **En la misma red**   | **IP del destino final.** No cambia.       | **MAC del destino final.**    | Entrega directa de PC a PC.                            |
 | **En una red remota** | **IP del destino final.** No cambia nunca. | **MAC del Router (Gateway).** | El router recibe el paquete y "se encarga" de pasarlo. |
+
 ![](../IMG/Host%20a%20router.png)
 
 ![](../IMG/Router%20a%20router.png)
