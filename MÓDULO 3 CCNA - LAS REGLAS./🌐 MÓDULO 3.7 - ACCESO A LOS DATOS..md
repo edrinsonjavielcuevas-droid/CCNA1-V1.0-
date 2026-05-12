@@ -18,6 +18,7 @@ La **Capa de Enlace de Datos** se encarga de mover la información físicamente 
 
 Cuando dos dispositivos están en la **misma red IP**, la entrega de datos es directa y local. En este escenario, la "trama" (el sobre que envuelve los datos) utiliza las direcciones físicas reales de los dispositivos involucrados: la **MAC de origen** es la del equipo que envía (PC1) y la **MAC de destino** es la dirección física real del equipo que recibe (el servidor). Es como entregar una carta en mano a un vecino que vive en tu mismo edificio; como sabes exactamente dónde está, no necesitas un cartero (router) que saque el mensaje a internet, simplemente lo diriges directamente a su tarjeta de red usando su "nombre físico" (MAC).
 
+
 ![](../IMG/CAPA%202.png)
 
 | **Característica**   | **Capa 3 (Red)**                                                                | **Capa 2 (Enlace de Datos)**                                                       |
@@ -28,6 +29,7 @@ Cuando dos dispositivos están en la **misma red IP**, la entrega de datos es di
 | **Propósito**        | Identificar la ubicación lógica del host en la red global.                      | Identificar la tarjeta de red (NIC) del siguiente dispositivo en el camino.        |
 | **Destino (Remoto)** | La dirección IP del **Host Final**.       
 | La dirección MAC del **Default Gateway** (interfaz del router).
+
 
 ![](../IMG/Encabezado%20de%20la%20trama.png)
 
@@ -60,8 +62,11 @@ Es como si quisieras enviar un paquete a otro país; no vas directamente a la ca
 | **En la misma red**   | **IP del destino final.** No cambia.       | **MAC del destino final.**    | Entrega directa de PC a PC.                            |
 | **En una red remota** | **IP del destino final.** No cambia nunca. | **MAC del Router (Gateway).** | El router recibe el paquete y "se encarga" de pasarlo. |
 
+
 ![](../IMG/Host%20a%20router.png)
 
+
 ![](../IMG/Router%20a%20router.png)
+
 
 ![](../IMG/Router%20a%20servidor.png)
