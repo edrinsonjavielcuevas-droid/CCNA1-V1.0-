@@ -19,11 +19,11 @@ Es como enviar un libro página por página en varios sobres, en lugar de meterl
 
  La **secuenciación** es como ponerle números de página a un mensaje dividido en partes; al usar segmentación, los trozos pueden llegar desordenados o por rutas distintas, por lo que el protocolo **TCP** les asigna un número de orden a cada uno. Esto permite que, al llegar al destino, el receptor pueda rearmar la información exactamente como era originalmente, evitando que el mensaje final sea un caos sin sentido.
 
-![](La%20secuenciación.png)
+![](../IMG/La%20secuenciación.png)
 
 ### Unidades de datos de protocolo:
 
 La **PDU (Unidad de Datos de Protocolo)** es el nombre genérico que recibe la información mientras viaja por las capas de red; a medida que baja por estas capas, se le añade información adicional de control en un proceso llamado **encapsulamiento**. Básicamente, cada capa envuelve los datos en un "sobre" nuevo y le cambia el nombre a esa PDU (como paquete o segmento) para indicar en qué etapa del proceso se encuentra.
 
-![](Encapsulamiento.png)
+![](../IMG/Encapsulamiento.png)
 
