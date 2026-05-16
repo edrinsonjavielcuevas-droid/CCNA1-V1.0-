@@ -28,7 +28,7 @@ Estos organismos definen los protocolos que permiten que diferentes dispositivos
 
 ---
 
-![](Capa%20fisica.png)
+![](../IMG/Capa%20fisica.png)
 
 **Componentes Físicos:** Se trata del "hierro" de la red; básicamente todo el hardware tangible que permite la transmisión de señales. Incluye desde las tarjetas de red (NIC) y los puertos de un router hasta el diseño de los cables, los conectores y la distribución de sus pines. En resumen, son los dispositivos y materiales electrónicos que siguen estándares específicos para asegurar que los bits puedan viajar físicamente de un punto a otro.
 
@@ -45,7 +45,7 @@ Un ejemplo clásico es la **codificación Manchester**:
 
 Mientras más rápida es la red (como Gigabit Ethernet), se usan métodos de codificación más avanzados (como 8B/10B) para mover más datos en menos tiempo.
 
-![](Codificación.png)
+![](../IMG/Codificación.png)
 
 ---
 
@@ -59,21 +59,21 @@ La **señalización** es el método físico para convertir los bits en pulsos re
 
  **Cable de Cobre:** Es el medio más común. Transmite datos mediante **impulsos eléctricos**. Es económico y fácil de instalar, pero es sensible a las interferencias electromagnéticas (EMI).
  
-![](Cable%20de%20cobre.png)
+![](../IMG/Cable%20de%20cobre.png)
 
  **Cable de Fibra Óptica:** Utiliza **pulsos de luz** para transmitir bits. Se fabrica con vidrio o plástico muy delgado. Es ideal para largas distancias y altas velocidades porque no le afectan las interferencias eléctricas.
 
-![](Fibra%20óptica.png)
+![](../IMG/Fibra%20óptica.png)
 
  **Medios Inalámbricos:** Transportan señales mediante **ondas de radio** o microondas a través de la atmósfera. No requieren cables físicos, pero la señal puede verse afectada por obstáculos físicos o interferencias de otros dispositivos.
 
-![](Medios%20inalambricos%20Micro.png)
+![](../IMG/Medios%20inalambricos%20Micro.png)
 
 ---
 
 El **ancho de banda** es la capacidad de un medio para transportar datos en un tiempo determinado, midiéndose generalmente en kbps, Mbps o Gbps. Es importante no confundirlo con la velocidad de la electricidad la cual es casi constante, ya que la diferencia real radica en el **número de bits enviados por segundo**. Su capacidad práctica depende de una combinación entre las propiedades físicas del medio (cobre, fibra o aire) y las tecnologías utilizadas para la señalización y detección de datos.
 
-![](Ancho%20de%20banda.png)
+![](../IMG/Ancho%20de%20banda.png)
 
 ---
 ### Terminología de Medición de Red
