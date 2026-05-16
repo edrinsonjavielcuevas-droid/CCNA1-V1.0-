@@ -10,7 +10,7 @@ El cable UTP es el estándar indiscutible de las LAN por su flexibilidad y bajo 
 
 El UTP depende exclusivamente del efecto de anulación. Si desenredas demasiado los hilos al ponchar un conector, rompes esta propiedad y generas errores en la red.
 
-![](Propiedades%20UTP.png)
+![](../IMG/Propiedades%20UTP.png)
 
 ---
 #### La Capa Física (OSI)
@@ -74,23 +74,23 @@ Se basa en los estándares **TIA/EIA-568** para el patillaje de los conectores *
  **Rollover:** Cable propietario de Cisco para acceder a la consola de configuración.
 
 
-![](Conectores%20UTP.png)
+![](../IMG/Conectores%20UTP.png)
 
 **Conectores RJ-45 para UTP**
 
-![](Conectores%20RJ-45%20para%20UTP.png)
+![](../IMG/Conectores%20RJ-45%20para%20UTP.png)
 
 **Socket RJ-45 para UTP**
 
-![](Socket%20RJ-45%20para%20UTP.png)
+![](../IMG/Socket%20RJ-45%20para%20UTP.png)
 
 **Cable UTP mal terminado**
 
-![](Cable%20UTP%20mal%20terminado.png)
+![](../IMG/Cable%20UTP%20mal%20terminado.png)
 
 **Cable UTP correctamente terminado**
 
-![](Cable%20UTP%20correctamente%20terminado.png)
+![](../IMG/Cable%20UTP%20correctamente%20terminado.png)
 
 **Nota:** La terminación incorrecta de los cables puede afectar el rendimiento de la transmisión.
 
@@ -108,14 +108,14 @@ Se basa en los estándares **TIA/EIA-568** para el patillaje de los conectores *
 
 **T568A and T568B Standards**: La tabla muestra el tipo de cable UTP, los estándares relacionados y la aplicación típica de estos cables.
 
-![](T568A%20and%20T568B%20Standards.png)
+![](../IMG/T568A%20and%20T568B%20Standards.png)
 
 #### Cable Types and Standards
 
-![](Cable%20Types%20and%20Standards.png)
+![](../IMG/Cable%20Types%20and%20Standards.png)
 
 **Actividad - Pinouts de cable**
 
-![](Pinout%20T568A.png)
+![](../IMG/Pinout%20T568A.png)
 
-![](Pinout%20T569B.png)
+![](../IMG/Pinout%20T569B.png)
