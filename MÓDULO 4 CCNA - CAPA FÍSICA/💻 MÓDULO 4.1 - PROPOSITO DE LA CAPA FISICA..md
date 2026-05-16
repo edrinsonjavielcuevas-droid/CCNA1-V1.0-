@@ -45,6 +45,7 @@ Un ejemplo clásico es la **codificación Manchester**:
 
 Mientras más rápida es la red (como Gigabit Ethernet), se usan métodos de codificación más avanzados (como 8B/10B) para mover más datos en menos tiempo.
 
+
 ![](../IMG/Codificación.png)
 
 ---
@@ -58,20 +59,24 @@ La **señalización** es el método físico para convertir los bits en pulsos re
 ---
 
  **Cable de Cobre:** Es el medio más común. Transmite datos mediante **impulsos eléctricos**. Es económico y fácil de instalar, pero es sensible a las interferencias electromagnéticas (EMI).
+
  
 ![](../IMG/Cable%20de%20cobre.png)
 
  **Cable de Fibra Óptica:** Utiliza **pulsos de luz** para transmitir bits. Se fabrica con vidrio o plástico muy delgado. Es ideal para largas distancias y altas velocidades porque no le afectan las interferencias eléctricas.
+ 
 
 ![](../IMG/Fibra%20óptica.png)
 
  **Medios Inalámbricos:** Transportan señales mediante **ondas de radio** o microondas a través de la atmósfera. No requieren cables físicos, pero la señal puede verse afectada por obstáculos físicos o interferencias de otros dispositivos.
+ 
 
 ![](../IMG/Medios%20inalambricos%20Micro.png)
 
 ---
 
 El **ancho de banda** es la capacidad de un medio para transportar datos en un tiempo determinado, midiéndose generalmente en kbps, Mbps o Gbps. Es importante no confundirlo con la velocidad de la electricidad la cual es casi constante, ya que la diferencia real radica en el **número de bits enviados por segundo**. Su capacidad práctica depende de una combinación entre las propiedades físicas del medio (cobre, fibra o aire) y las tecnologías utilizadas para la señalización y detección de datos.
+
 
 ![](../IMG/Ancho%20de%20banda.png)
 
