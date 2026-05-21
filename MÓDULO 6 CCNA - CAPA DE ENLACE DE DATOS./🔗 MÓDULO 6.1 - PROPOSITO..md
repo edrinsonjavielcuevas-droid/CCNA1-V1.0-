@@ -5,11 +5,11 @@
 
 La **Capa de Enlace de Datos** actúa como el puente definitivo entre el software y el mundo físico, encargándose de la comunicación directa entre tarjetas de red (**NIC a NIC**). Básicamente, toma los paquetes de la Capa 3 (como IPv4 o IPv6) y los empaqueta en **tramas (frames)** para enviarlos a través del cable o el aire sin que las capas superiores tengan que preocuparse por el tipo de medio utilizado; además, controla el acceso a ese medio y se encarga de **detectar errores**, descartando de inmediato cualquier trama que se haya corrompido en el camino.
 
-![](Enlace%20de%20datos..png)
+![](../IMG/Enlace%20de%20datos..png)
 
 Un **nodo** es cualquier dispositivo de red (PC, switch, etc.). La **Capa 2** es clave porque aísla al protocolo IP (Capa 3) del tipo de cable o señal: toma el paquete IP, le añade las direcciones físicas (NIC origen y destino) para crear la trama y se la pasa a la Capa 1, evitando que IP tenga que cambiar cada vez que se invente un nuevo medio físico.
 
-![](nodo.png)
+![](../IMG/nodo.png)
 
 ### Subcapas de la Capa de Enlace de Datos (IEEE 802)
 
@@ -42,6 +42,6 @@ Es la subcapa inferior basada en **hardware** (específica para cada tecnología
 
 Nota de examen: Las comunicaciones Full-duplex no requieren este control de acceso.
 
-![](Subcapas%20de%20la%20Capa%20de%20Enlace%20de%20Datos%20(IEEE%20802).png)
+![](../IMG/Subcapas%20de%20la%20Capa%20de%20Enlace%20de%20Datos%20(IEEE%20802).png)
 
 ---
