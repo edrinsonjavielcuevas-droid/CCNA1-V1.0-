@@ -7,13 +7,13 @@
 
 **1. Topología Física (Physical Topology):** Muestra las conexiones físicas reales de la infraestructura. Identifica exactamente cómo están interconectados los cables y los dispositivos (finales e intermediarios). Incluye datos de ubicación geográfica muy específicos, como el número de aula u oficina, números de puertos físicos y la posición exacta de los equipos en los racks de telecomunicaciones.
 
-![](Topología%20Física.png)
+![](../IMG/Topología%20Física.png)
 
 ---
 
 **2. Topología Lógica (Logical Topology):** Representa la ruta virtual por la que viajan los datos a través de la red. Describe cómo la Capa 2 transfiere las tramas de un nodo al siguiente. En lugar de ubicaciones físicas o cables, este diagrama muestra los nombres de las interfaces de los dispositivos (ej. _GigabitEthernet0/0_) y los esquemas de direccionamiento IP (Capa 3). Es la que determina directamente el método de control de acceso a los medios.
 
-![](Topología%20Lógica.png)
+![](../IMG/Topología%20Lógica.png)
 
 ---
 
@@ -21,15 +21,15 @@
 
 1.**Punto a Punto:** Esta es la más simple de todas y consiste en un enlace permanente entre 2 dispositivos finales. 
 
-![](Punto%20a%20Punto.png)
+![](../IMG/Punto%20a%20Punto.png)
 
 2.**Centro y Redios:** Esta describe una topología o modelo organizativo que centraliza las operaciones, rutas o datos en un punto principal (_hub_) desde el cual se ramifican conexiones hacia puntos secundarios (_spokes_ o radios). 
 
-![](Centro%20y%20Redios.png)
+![](../IMG/Centro%20y%20Redios.png)
 
 3.**Malla**: La topología de malla es una configuración de red donde los dispositivos (nodos) están interconectados entre sí, permitiendo múltiples rutas para que los datos viajen. Ofrece alta redundancia y tolerancia a fallos: si un cable o nodo se rompe, la información se redirige automáticamente por otra ruta disponible.
 
-![](Malla.png)
+![](../IMG/Malla.png)
 
 ---
 
@@ -42,9 +42,9 @@
 | **Topología Física**      | El enlace cruza múltiples routers, switches y distancias reales.    | Muestra la infraestructura y equipos reales en la nube.                          |
 | **Topología Lógica**      | Ignora los equipos del medio; solo ve dos nodos interconectados.    | Se mantiene idéntica y directa sin importar el hardware real.                    |
 
-![](TOPOLOGÍA%20WAN%20PUNTO%20A%20PUNTO.png)
+![](../IMG/TOPOLOGÍA%20WAN%20PUNTO%20A%20PUNTO.png)
 
-![](Sourse%20node.png)
+![](../IMG/Sourse%20node.png)
 
 ---
 ### Topologías LAN
@@ -79,7 +79,7 @@ Las tecnologías antiguas de Ethernet y Token Ring utilizaban infraestructuras f
 
 **Características:** A diferencia de la topología en bus, **no requiere terminadores** en sus extremos. Fue el estándar utilizado por las tecnologías legadas **Token Ring** y **FDDI** (_Fiber Distributed Data Interface_).
 
-![](Topologías%20LAN.png)
+![](../IMG/Topologías%20LAN.png)
 
 ---
 
@@ -113,7 +113,7 @@ Redes antiguas interconectadas por **Hubs Ethernet**.
 
 ---
 
-![](Comunicación%20Half%20y%20Full%20Duplex.png)
+![](../IMG/Comunicación%20Half%20y%20Full%20Duplex.png)
 
 ---
 
@@ -145,11 +145,11 @@ Los dos mecanismos de contención más importantes en exámenes de certificació
 
 **Uso:** Redes LAN inalámbricas (WLAN / Wi-Fi).
 
-![](Acceso%20Basado%20en%20Contención.png)
+![](../IMG/Acceso%20Basado%20en%20Contención.png)
 
 El método **CSMA/CA** es el protocolo de control de acceso exclusivo para redes inalámbricas (**WLAN/Wi-Fi**), diseñado específicamente para **evitar** colisiones en el aire, ya que las antenas no pueden detectar interferencias mientras transmiten; en contraste, **CSMA/CD** se utiliza únicamente en redes cableadas compartidas (**Ethernet legado** con hubs o buses) para **detectar** colisiones en el cobre una vez que ocurren, deteniendo el tráfico de inmediato para retransmitir tras un tiempo aleatorio.
 
-![](El%20método%20CSMA.png)
+![](../IMG/El%20método%20CSMA.png)
 
 **NOTA:** Hoy en día, las redes usan full-duplex y no requieren un metodo de acceso.
 
@@ -159,11 +159,11 @@ El **Acceso Controlado** es un método antiguo y determinista (como _Token Ring_
 
 Por el contrario, el **Acceso por Contención (CSMA/CD)** permite que los dispositivos transmitan en modo _half-duplex_ cuando consideren que el cable está libre. Si dos nodos transmiten a la vez, las señales chocan elevando el voltaje eléctrico; la tarjeta de red (NIC) detecta este **pico de amplitud**, descarta los datos dañados y obliga a los dispositivos a esperar un tiempo aleatorio antes de volver a intentar.
 
-![](PC1%20envia%20una%20trama.png)
+![](../IMG/PC1%20envia%20una%20trama.png)
 
-![](Hub%20recive%20una%20trama.png)
+![](../IMG/Hub%20recive%20una%20trama.png)
 
-![](El%20Hub%20envia%20una%20trama.png)
+![](../IMG/El%20Hub%20envia%20una%20trama.png)
 
 ---
 
@@ -175,7 +175,7 @@ El método **CSMA/CA** se utiliza en redes inalámbricas (**IEEE 802.11 WLANs**)
 
 **Acuse de Recibo (ACK):** Al finalizar la transmisión de una trama 802.11, el receptor responde de inmediato con un mensaje de confirmación (**Acknowledgment**). Si el emisor no recibe este ACK, asume que hubo interferencia o una colisión y vuelve a programar el envío.
 
-![](Acceso%20por%20Contención.png)
+![](../IMG/Acceso%20por%20Contención.png)
 
 Algunas de las limitaciones que puede presentar este metodo de contensión es que tanto en redes cableadas con hubs (CSMA/CD) como en redes inalámbricas (CSMA/CA), **el rendimiento no escala bien bajo un uso intenso del medio**. Si se conectan demasiados dispositivos compitiendo a la vez, las colisiones y las esperas aumentan de forma drástica, haciendo que la red se vuelva extremadamente lenta.
 
