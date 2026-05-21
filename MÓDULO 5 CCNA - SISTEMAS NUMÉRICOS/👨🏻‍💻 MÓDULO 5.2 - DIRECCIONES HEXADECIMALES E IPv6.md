@@ -13,17 +13,17 @@ Letras de la **A a la F** (valores del 10 al 15).
   
 **Representación:** Cada dígito hexadecimal representa exactamente **4 bits** (un _nibble_ o medio octeto), yendo desde `0000` hasta `1111`.
 
-![](Direcciones%20Hexadecimales%20e%20IPv6.png)
+![](../IMG/Direcciones%20Hexadecimales%20e%20IPv6.png)
 
 ---
 
 Las direcciones IPv6 miden **128 bits** y se representan mediante **32 dígitos hexadecimales** (los cuales no distinguen mayúsculas y abarcan del 0 al 9 y de la A a la F, donde cada carácter condensa 4 bits binarios). Esta infraestructura se organiza en el formato preferido `x:x:x:x:x:x:x:x`, compuesto por **8 segmentos de 16 bits llamados hextetos** y separados por dos puntos, lo que optimiza la lectura y escritura de grandes volúmenes de datos en comparación con las cadenas binarias puras utilizadas por el hardware.
 
-![](128%20bits.png)
+![](../IMG/128%20bits.png)
 
 **Ejemplo de una topologia IPv6:**
 
-![](Ejemplo%20de%20una%20topologia%20IPv6.png)
+![](../IMG/Ejemplo%20de%20una%20topologia%20IPv6.png)
 
 ---
 
