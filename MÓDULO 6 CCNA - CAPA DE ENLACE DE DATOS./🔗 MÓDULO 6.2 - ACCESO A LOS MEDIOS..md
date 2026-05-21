@@ -37,6 +37,6 @@ Por lo tanto, la Capa de Enlace de Datos es regulada por **organizaciones de ing
 
 **ANSI** (American National Standards Institute)
 
-![](Estándares%20de%20la%20Capa%20de%20Enlace%20de%20Datos.png)
+![](../IMG/Estándares%20de%20la%20Capa%20de%20Enlace%20de%20Datos.png)
 
 ---
