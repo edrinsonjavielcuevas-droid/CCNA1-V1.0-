@@ -15,7 +15,7 @@ Sin importar el protocolo físico que utilices, toda trama se divide estrictamen
 
 **OJO:** La Capa 2 es la única del modelo OSI que agrega un tráiler al final de su PDU.
 
-![](La%20Trama.png)
+![](../IMG/La%20Trama.png)
 
 ---
 
@@ -69,7 +69,7 @@ Debemos saber que los protocolos de Capa 2 varían según la infraestructura, la
 
 ---
 
-![](Campos%20de%20la%20Trama.png)
+![](../IMG/Campos%20de%20la%20Trama.png)
 
 ---
 
@@ -87,15 +87,15 @@ Debemos saber que los protocolos de Capa 2 varían según la infraestructura, la
 
 **Host to Router:**
 
-![](Host%20to%20Router.png)
+![](../IMG/Host%20to%20Router.png)
 
 **Router to Router:**
 
-![](Router%20to%20Router.png)
+![](../IMG/Router%20to%20Router.png)
 
 **Router to Host:**
 
-![](Router%20to%20Host.png)
+![](../IMG/Router%20to%20Host.png)
 
 ---
 
