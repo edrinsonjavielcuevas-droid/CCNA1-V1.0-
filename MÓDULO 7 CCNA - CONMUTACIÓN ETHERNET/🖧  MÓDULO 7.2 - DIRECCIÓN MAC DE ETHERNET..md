@@ -11,7 +11,7 @@ Un solo dígito hexadecimal representa exactamente **4 bits binarios** (un _nibb
 
 **Equivalentes decimales y binarios a los valores hexadecimales del 0 al F.**
 
-![](Equivalentes%20decimales%20y%20binarios%20a%20los%20valores%20hexadecimales%20del%200%20al%20F..png)
+![](../IMG/MÓDULO7IMG/Equivalentes%20decimales%20y%20binarios%20a%20los%20valores%20hexadecimales%20del%200%20al%20F..png)
 
 Dado que 8 bits (un byte) es un método de agrupación binaria común, los números binarios del 00000000 al 11111111 se pueden representar en hexadecimal como el rango del 00 al FF.
 
@@ -19,7 +19,7 @@ Dado que 8 bits (un byte) es un método de agrupación binaria común, los núme
 
 **Equivalentes decimales, binarios y hexadecimales seleccionados**
 
-![](Equivalentes%20decimales,%20binarios%20y%20hexadecimales%20seleccionados.png)
+![](../IMG/MÓDULO7IMG/Equivalentes%20decimales,%20binarios%20y%20hexadecimales%20seleccionados.png)
 
 Cuando se usa hexadecimal, los ceros iniciales siempre se muestran para completar la representación de 8 bits.
 
@@ -31,7 +31,7 @@ El hexadecimal también puede estar representado por un subíndice 16, o el núm
 
 En una LAN Ethernet, las direcciones MAC identifican de forma única a los dispositivos físicos (NIC) de origen y destino dentro del mismo segmento local de la Capa 2. Esta dirección consta de **48 bits**, lo que equivale exactamente a **6 bytes** de longitud, y se representa de forma sencilla mediante **12 dígitos hexadecimales**.
 
-![](Identificador%20MAC.png)
+![](../IMG/MÓDULO7IMG/Identificador%20MAC.png)
 
 ==Todas las direcciones MAC deben ser únicas para el dispositivo Ethernet o la interfaz Ethernet.== Para garantizar esto, todos los proveedores que venden dispositivos Ethernet deben registrarse con el IEEE para obtener un código hexadecimal único de 6 (es decir, 24 bits o 3 bytes) denominado identificador único de organización (OUI).
 
@@ -42,7 +42,7 @@ Cuando un proveedor asigna una dirección MAC a un dispositivo o interfaz Ethern
 
 Por lo tanto, una dirección MAC Ethernet consiste en un código OUI de proveedor hexadecimal 6 seguido de un valor asignado por el proveedor hexadecimal 6, como se muestra en la figura.
 
-![](Proveedor%20MAC%20único.png)
+![](../IMG/MÓDULO7IMG/Proveedor%20MAC%20único.png)
 
 Por ejemplo, suponga que Cisco necesita asignar una dirección MAC única a un nuevo dispositivo. El IEEE ha asignado a Cisco un OUI de **00-60-2F**. Cisco configuraría entonces el dispositivo con un código de proveedor único como **3A-07-BC**. Por lo tanto, la dirección MAC Ethernet de ese dispositivo sería **00-60-2F-3A-07-BC.**
 
@@ -72,7 +72,7 @@ Cualquier dispositivo que sea la origen o destino de una trama Ethernet, tendrá
 
 Una dirección MAC de unicast es la dirección única que se utiliza cuando se envía una trama desde un único dispositivo de transmisión a un único dispositivo de destino.
 
-![](Dirección%20MAC%20de%20unicast.png)
+![](../IMG/MÓDULO7IMG/Dirección%20MAC%20de%20unicast.png)
 
 ==El proceso que utiliza un host de origen para determinar la dirección MAC de destino asociada con una dirección IPv4 se conoce como Protocolo de resolución de direcciones (ARP). El proceso que utiliza un host de origen para determinar la dirección MAC de destino asociada con una dirección IPv6 se conoce como Neighbor Discovery (ND).==
 
@@ -92,7 +92,7 @@ Cada dispositivo de la LAN Ethernet recibe y procesa una trama de broadcast Ethe
 
 Si los datos encapsulados son un paquete broadcast IPv4, esto significa que el paquete contiene una dirección IPv4 de destino que tiene todos los (1s) en la parte del host. Esta numeración en la dirección significa que todos los hosts de esa red local (dominio de broadcast) recibirán y procesarán el paquete.
 
-![](Dirección%20MAC%20broadcast.png)
+![](../IMG/MÓDULO7IMG/Dirección%20MAC%20broadcast.png)
 
 Sin embargo, no todas las transmisiones Ethernet llevan un paquete de broadcast IPv4. Por ejemplo, las solicitudes ARP no utilizan IPv4, pero el mensaje ARP se envía como un broadcast Ethernet.
 
@@ -122,7 +122,7 @@ Las direcciones de multicast representan a un grupo específico de hosts recepto
 
 **Mapeo de Capa 2:** Para poder entregar las tramas dentro de la red local, cada dirección IP de multicast requiere una **dirección MAC de multicast correspondiente**, la cual se genera de forma automática asociando y heredando parte de la información de direccionamiento de la propia dirección IP (v4 o v6).
 
-![](Dirección%20MAC%20de%20multicast.png)
+![](../IMG/MÓDULO7IMG/Dirección%20MAC%20de%20multicast.png)
 
 Los protocolos de enrutamiento y otros protocolos de red utilizan direccionamiento multicast. Las aplicaciones como el software de vídeo e imágenes también pueden utilizar direccionamiento multicast, aunque las aplicaciones multicast no son tan comunes.
 
