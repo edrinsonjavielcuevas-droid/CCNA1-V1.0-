@@ -9,7 +9,7 @@ Ethernet es en pocas palabras la tecnología LAN cableada predominante en la act
 
 **Capacidad de Ancho de Banda:** Admite velocidades de datos que escalan desde los 10 Mbps históricos hasta los 100 Gbps modernos (pasando por 100 Mbps, 1 Gbps, 10 Gbps y 40 Gbps).
 
-![](../IMG/MÓDULO7/Ethernet%20Switching.png)
+![](../IMG/MÓDULO7IMG/Ethernet%20Switching.png)
 
 ---
 
@@ -21,7 +21,7 @@ Los protocolos LAN/MAN de la familia IEEE 802 dividen la Capa 2 (Enlace de datos
 
 **Subcapa MAC (Media Access Control - IEEE 802.3, 802.11, 802.15):** Es la sección implementada directamente en el hardware de la NIC. Es responsable de la encapsulación de datos (armar la trama) y del control de acceso al medio. Proporciona el direccionamiento físico (direcciones MAC) y se integra directamente con las diversas tecnologías de la Capa Física (cobre, fibra o aire).
 
-![](../IMG/MÓDULO7/Data%20Link%20Sublayers.png)
+![](../IMG/MÓDULO7IMG/Data%20Link%20Sublayers.png)
 
 **Subcapa MAC:** Es responsible de la encapsulación de la data y del acceso al medio directamente.
 
@@ -31,7 +31,7 @@ La subcapa MAC (**IEEE 802.3**) controla el hardware mediante dos tareas clave:
 
 **Control de acceso al medio:** Regula la salida de datos según la infraestructura física (cobre o fibra). En redes legadas compartidas (**half-duplex** con hubs), activa **CSMA/CD** y su algoritmo de respaldo (_back-off_) para gestionar colisiones; en redes modernas con switches (**full-duplex**), CSMA/CD se desactiva por completo al contar con canales bidireccionales dedicados y libres de colisiones.
 
-![](../IMG/MÓDULO7/Subcapa%20MAC.png)
+![](../IMG/MÓDULO7IMG/Subcapa%20MAC.png)
 
 
 ---
@@ -51,7 +51,7 @@ En Ethernet, el tamaño de una trama tiene límites estrictos de hardware que va
 
 ---
 
-![](../IMG/MÓDULO7/CAMPOS%20DE%20TRAMA%20ETHERNET.png)
+![](../IMG/MÓDULO7IMG/CAMPOS%20DE%20TRAMA%20ETHERNET.png)
 
 **Detalle de Campos: Trama Ethernet:**
 
