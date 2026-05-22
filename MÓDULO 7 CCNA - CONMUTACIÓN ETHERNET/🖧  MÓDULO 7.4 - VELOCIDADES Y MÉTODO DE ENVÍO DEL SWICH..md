@@ -21,7 +21,7 @@ Los switches de Cisco utilizan dos métodos de hardware para conmutar y enviar d
 
 Un switch ethernet  puede usar una técnica de almacenamiento en búfer para almacenar tramas antes de enviarlas. También se puede utilizar el almacenamiento en búfer cuando el puerto de destino está ocupado debido a la gestión. El switch almacena la trama hasta que se pueda transmitir.
 
-![](Metodo%20de%20memoria%20búffer.png)
+![](../IMG/MÓDULO7IMG/Metodo%20de%20memoria%20búffer.png)
 
 ---
 
@@ -42,7 +42,7 @@ Un switch ethernet  puede usar una técnica de almacenamiento en búfer para alm
 
 **Autonegociación:** Función opcional en NICs y switches que permite a dos dispositivos conectados acordar automáticamente la **velocidad más alta y el modo dúplex óptimo** (full-duplex) que ambos soporten en común.
 
-![](Configuración%20de%20duplex%20y%20velocidad.png)
+![](../IMG/MÓDULO7IMG/Configuración%20de%20duplex%20y%20velocidad.png)
 
 **NOTA:** La meyoría de los switches de CISCO y las NIC de Ethernet tienen por defecto la negociación automática para velocidad y dúplex. Los puertos Gigabit Ethernet funcionan con el full - duplex.
 
@@ -52,7 +52,7 @@ Un switch ethernet  puede usar una técnica de almacenamiento en búfer para alm
 
 **Causa:** Ocurre cuando un puerto del enlace opera en **half-duplex** (medio dúplex) y el otro extremo en **full-duplex** (dúplex completo).
 
-![](Falta%20de%20Coincidencia.png)
+![](../IMG/MÓDULO7IMG/Falta%20de%20Coincidencia.png)
 
 ---
 
@@ -68,7 +68,7 @@ Un switch ethernet  puede usar una técnica de almacenamiento en búfer para alm
 
 **NOTA:** Una conexión directa entre un router y un host requiere una conexión cruzada.
 
-![](Auto-MDIX.png)
+![](../IMG/MÓDULO7IMG/Auto-MDIX.png)
 
 **Independencia del cable:** Al estar habilitado en puertos de cobre $10/100/1000\text{ Mbps}$, permite usar indistintamente un cable directo o cruzado, sin importar el dispositivo del otro extremo.
 
