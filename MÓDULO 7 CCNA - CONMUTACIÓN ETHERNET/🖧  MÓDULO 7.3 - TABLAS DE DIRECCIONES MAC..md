@@ -11,7 +11,7 @@ Un switch Ethernet examina su tabla de direcciones MAC para tomar una decisión 
 
 **Nota:** Las direcciones MAC se acortan a lo largo de este tema con fines de demostración.
 
-![](Fundamentos%20de%20switches.png)
+![](../IMG/MÓDULO7IMG/Fundamentos%20de%20switches.png)
 
 **Nota:** En ocasiones, la tabla de direcciones MAC se denomina tabla de memoria de contenido direccionable (CAM). Aunque el término “tabla CAM” es bastante común, en este curso nos referiremos a ella como “tabla de direcciones MAC”.
 
@@ -31,7 +31,7 @@ El switch examina la **dirección MAC de origen** de cada trama que ingresa para
 
 **Si la MAC cambió de puerto:** Si la dirección ya existía pero aparece en un puerto diferente, el switch la trata como una actualización inmediata: borra el registro viejo y guarda la MAC asociada al puerto más reciente.
 
-![](Examinar%20la%20dirección%20MAC%20de%20Origen%20(%20APRENDER%20).png)
+![](../IMG/MÓDULO7IMG/Examinar%20la%20dirección%20MAC%20de%20Origen%20(%20APRENDER%20).png)
 
 ----
 
@@ -45,7 +45,7 @@ Cuando una trama entra al switch, este lee la **dirección MAC de destino** para
 
 **Tramas Broadcast o Multicast:** Si el destino es una dirección de difusión (`FFFF.FFFF.FFFF`) o de grupo, el switch ejecuta la misma inundación automática, enviándola por todos los puertos menos el de origen.
 
-![](Reenviando.png)
+![](../IMG/MÓDULO7IMG/Reenviando.png)
 
 ---
 
@@ -57,7 +57,7 @@ A medida que un switch recibe tramas de diferentes dispositivos, puede completar
 
 En la figura, PC-D responde a PC-A. El switch ve la dirección MAC de PC-D en la trama entrante en el puerto 4. A continuación, el switch coloca la dirección MAC de PC-D en la tabla de direcciones MAC asociada con el puerto 4.
 
-![](PC-D%20a%20Switch.png)
+![](../IMG/MÓDULO7IMG/PC-D%20a%20Switch.png)
 
 ---
 
@@ -65,7 +65,7 @@ En la figura, PC-D responde a PC-A. El switch ve la dirección MAC de PC-D en la
 
 A continuación, dado que el switch tiene la dirección MAC de destino para la PC-A en la Tabla de direcciones MAC, enviará la trama solo al puerto 1, como se muestra en la figura.
 
-![](Switch%20a%20PC-A.png)
+![](../IMG/MÓDULO7IMG/Switch%20a%20PC-A.png)
 
 ---
 
@@ -73,6 +73,6 @@ A continuación, dado que el switch tiene la dirección MAC de destino para la P
 
 A continuación, PC-A envía otro trama a PC-D como se muestra en la figura. La tabla de direcciones MAC ya contiene la dirección MAC para PC-A; por lo tanto, el temporizador de actualización de cinco minutos para esa entrada se restablece. Luego, debido a que la tabla de switch contiene la dirección MAC de destino para PC-D, envía la trama solo por el puerto 4.
 
-![](PC-A%20a%20Switch%20PC-D.png)
+![](../IMG/MÓDULO7IMG/PC-A%20a%20Switch%20PC-D.png)
 
 ---
