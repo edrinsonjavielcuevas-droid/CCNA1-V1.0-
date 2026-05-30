@@ -18,7 +18,7 @@ Si el host de destino se encuentra en una **red remota** (diferente subred), ser
 
 La siguiente imagen muestra el problema de enviar una trama a otro host en el mismo segmento de red IPv4.
 
-![](Descripción%20general%20de%20ARP.png)
+![](../IMG/MODULO9IMG/Descripción%20general%20de%20ARP.png)
 
 
 ---
@@ -132,7 +132,7 @@ Debemos de saber que para mantener la eficiencia y precisión de la red, las asi
 
 **Impacto de la eliminación:** Una vez que una entrada es eliminada (por caducidad o manualmente), el dispositivo emisor "olvida" esa dirección física. Si necesita volver a enviar datos a esa misma dirección IPv4, deberá reiniciar obligatoriamente el proceso completo (emitir un _ARP Request_ y recibir el _ARP Reply_) para poder registrar nuevamente la asignación MAC en su tabla.
 
-![](Eliminación%20de%20entradas%20de%20una%20tabla%20ARP.png)
+![](../IMG/MODULO9IMG/Eliminación%20de%20entradas%20de%20una%20tabla%20ARP.png)
 
 ----
 
@@ -140,11 +140,11 @@ Debemos de saber que para mantener la eficiencia y precisión de la red, las asi
 
 En los routers de cisco usamos el comando *==show ip arp==*  para mostrar la tabla ARP.
 
-![](Tablas%20ARP%20de%20dispositivos%20de%20red.png)
+![](../IMG/MODULO9IMG/Tablas%20ARP%20de%20dispositivos%20de%20red.png)
 
 En los dispositivos con Windows 10 usamos el comando *==arp -a==* para ver las tablas ARP.
 
-![](ARP%20-A.png)
+![](../IMG/MODULO9IMG/ARP%20-A.png)
 
 ---
 
@@ -152,13 +152,13 @@ En los dispositivos con Windows 10 usamos el comando *==arp -a==* para ver las t
 
 Las solicitudes ARP son mensajes de difusión (_broadcast_) que todos los equipos de la red local están obligados a procesar. Aunque en condiciones normales su impacto es mínimo, si muchos dispositivos se conectan a la red simultáneamente, pueden generar un pico de tráfico de difusión que ralentice la red temporalmente. Sin embargo, este efecto dura muy poco; en cuanto los equipos obtienen las respuestas y guardan las direcciones MAC en su caché temporal, dejan de enviar difusiones y el rendimiento de la red vuelve rápidamente a la normalidad.
 
-![](Difusión%20ARP.png)
+![](../IMG/MODULO9IMG/Difusión%20ARP.png)
 
 ---
 
 El protocolo ARP es vulnerable a ataques de **suplantación o envenenamiento ARP (ARP Spoofing/Poisoning)**. En este escenario, un actor malicioso envía respuestas ARP falsificadas para engañar a un dispositivo, haciéndole creer que la MAC del atacante corresponde a una IP legítima de la red (como la del _gateway_ o router). La víctima guarda esta asignación corrupta en su tabla ARP y, sin saberlo, termina redirigiendo todo su tráfico hacia el atacante. Para defender la infraestructura contra esta técnica, se configura en los switches empresariales una medida de mitigación llamada **Inspección Dinámica de ARP (DAI)**.
 
-![](envenenamiento%20ARP.png)
+![](../IMG/MODULO9IMG/envenenamiento%20ARP.png)
 
 ---
 
