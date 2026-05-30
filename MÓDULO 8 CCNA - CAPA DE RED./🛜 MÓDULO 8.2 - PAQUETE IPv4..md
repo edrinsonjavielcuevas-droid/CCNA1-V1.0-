@@ -11,7 +11,7 @@ El protocolo IPv4 es uno de los principales en la capa de red, y la función cen
 
 El encabezado de un paquete IPv4 es fundamental para la gestión de las comunicaciones en la Capa 3, ya que sus diversos campos contienen parámetros de configuración específicos representados mediante valores binarios. Para su análisis y consulta, estos campos se organizan en diagramas visuales que se interpretan de izquierda a derecha y de arriba hacia abajo. Estos diagramas permiten identificar la estructura detallada de los campos que componen un paquete IPv4.
 
-![](Campos%20del%20encabezado%20de%20paquetes%20IPv4.png)
+![](../IMG/MODULO8IMG/Campos%20del%20encabezado%20de%20paquetes%20IPv4.png)
 
 ---
 
