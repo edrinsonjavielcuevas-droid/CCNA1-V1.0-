@@ -10,7 +10,7 @@
 **Remote Host (Host Remoto):** Es el dispositivo de destino que se encuentra en una red diferente a la del emisor. Para alcanzarlo, el paquete debe ser enviado primero a un router (gateway) para que este realice el enrutamiento hacia la red de destino.
 
 ---
-![](La%20decisión%20de%20reenvío%20de%20host.png)
+![](../IMG/MODULO8IMG/La%20decisión%20de%20reenvío%20de%20host.png)
 
 **Tipos de Rutas en la Tabla de Enrutamiento (IPv6)**
 
@@ -50,7 +50,7 @@ La tabla de enrutamiento de un dispositivo final debe incluir la dirección de l
 
 En la siguiente imagen la PC1 y PC2 están configuradas con la dirección IPv4 de 192.168.10.1 como puerta de enlace predeterminada.
 
-![](Un%20host%20enruta%20a%20la%20puerta%20de%20enlace%20predeterminada.png)
+![](../IMG/MODULO8IMG/Un%20host%20enruta%20a%20la%20puerta%20de%20enlace%20predeterminada.png)
 
 Una ruta predeterminada es la ruta o camino que la PC utiliza cuando intenta conectarse a la red remota.
 
@@ -62,13 +62,13 @@ En un host de Windows, el comando   **route print** ó **netstat**  se puede usa
 
 La siguiente imagen muestra una topología de ejemplo y la salida generada por el comando **netstat -r**.
 
-![](netstat%20-r.png)
+![](../IMG/MODULO8IMG/netstat%20-r.png)
 
 ---
 
 **Tabla de enrutamiento IPv4 para la PC1**
 
-![](Tabla%20de%20enrutamiento%20IPv4%20para%20la%20PC1.png)
+![](../IMG/MODULO8IMG/Tabla%20de%20enrutamiento%20IPv4%20para%20la%20PC1.png)
 
 **OJO:** Esta salida solo muestra la tabla de rutas IPv4.
 
