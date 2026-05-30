@@ -25,7 +25,7 @@ La Capa 3 (Capa de Red) sirve para que los dispositivos finales se manden datos 
 
 Básicamente, el protocolo IP toma el segmento de datos que le entrega la capa de transporte (la capa que está justo arriba) y lo "envuelve" agregándole un **encabezado IP**. Ese encabezado es vital porque es el que se utiliza para lograr entregar el paquete hasta su destino final. Al hacer este proceso de envoltura, los datos se convierten oficialmente en un paquete IP.
 
-![](Encapsulación%20IP.png)
+![](../IMG/MODULO8IMG/Encapsulación%20IP.png)
 
 
 **Independencia de las Capas:** El hecho de que la red encapsule los datos capa por capa es genial porque permite mejorar o inventar nuevos protocolos sin dañar al resto del sistema. Esto significa que a la capa de transporte le da exactamente igual si decides usar IPv4, IPv6 o un protocolo inventado en el futuro; el paquete se va a armar sin ningún problema.
@@ -57,13 +57,13 @@ Lo que este concepto significa es que el protocolo IP no crea una conexión dedi
 
 **Sin conexión - Analogía**
 
-![](Sin%20conexión%20-%20Analogía.png)
+![](../IMG/MODULO8IMG/Sin%20conexión%20-%20Analogía.png)
 
 Las comunicaciones sin conexión funcionan exactamente con ese mismo principio. El protocolo IP no exige que los dispositivos intercambien información de control al principio para establecer una conexión antes de empezar a mandar los paquetes. Simplemente arranca a enviar los datos de una.
 
 **Sin conexión - Red**
 
-![](Sin%20conexión%20-%20Red.png)
+![](../IMG/MODULO8IMG/Sin%20conexión%20-%20Red.png)
 
 ---
 
@@ -73,7 +73,7 @@ El protocolo IP es tan ligero que no necesita añadir campos extra en su encabez
 
 Pero esto tiene un costo: como no hay una conexión establecida de antemano, el dispositivo que envía el paquete lo hace a ciegas. Literalmente no sabe si el equipo de destino está encendido, si realmente le llegó el paquete, o si siquiera pudo abrirlo y leerlo. Por eso se le llama de "mejor esfuerzo" o "poco confiable": IP hace el intento de enviar la información, pero no te garantiza bajo ninguna circunstancia que todos los paquetes vayan a llegar a su destino.
 
-![](Mejor%20esfuerzo.png)
+![](../IMG/MODULO8IMG/Mejor%20esfuerzo.png)
 
 ---
 
@@ -85,7 +85,7 @@ Pero esto tiene un costo: como no hay una conexión establecida de antemano, el 
 
 **La independencia física:** El concepto central de esta sección es que IP funciona de manera totalmente independiente del medio físico que se use en las capas más bajas. Un mismo paquete IP puede viajar sin problemas convertido en señales electrónicas por cables de cobre, en señales ópticas a través de fibra óptica, o en ondas de radio inalámbricas.
 
-![](Independiente%20de%20los%20medios.png)
+![](../IMG/MODULO8IMG/Independiente%20de%20los%20medios.png)
 
 **El límite de tamaño (MTU):** Aunque a la capa de red le da igual si usas cobre o fibra, sí tiene que respetar el tamaño máximo de datos que ese medio físico puede soportar de un solo golpe. Ese límite se llama **MTU (Unidad de Transmisión Máxima)**. Básicamente, la capa de enlace le avisa a la capa de red cuál es ese límite para que sepa de qué tamaño armar los paquetes.
 
