@@ -27,13 +27,13 @@ Esta estructura permite que los equipos de red procesen los paquetes a mayor vel
 
 **Comparación del especio de direcciones IPv4 e IPv6:**
 
-![](Comparación%20del%20especio%20de%20direcciones%20IPv4%20e%20IPv6.png)
+![](../IMG/MODULO8IMG/Comparación%20del%20especio%20de%20direcciones%20IPv4%20e%20IPv6.png)
 
 ---
 
 **Encabezado de paquetes IPv6:**
 
-![](Encabezado%20de%20paquetes%20IPv6.png)
+![](../IMG/MODULO8IMG/Encabezado%20de%20paquetes%20IPv6.png)
 
 ---
 
