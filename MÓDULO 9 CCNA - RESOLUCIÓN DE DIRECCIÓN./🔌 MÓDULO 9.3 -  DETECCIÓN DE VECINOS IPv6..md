@@ -33,10 +33,10 @@ Para realizar estas funciones, ND opera mediante el protocolo **ICMPv6** utiliza
 
 **Mensaje de Redirección:** Un router lo utiliza para informar a un host local que existe una ruta mucho mejor (un siguiente salto más directo) para alcanzar un destino específico en la red.
 
-![](Solicitud%20de%20vecino.png)
+![](../IMG/MODULO9IMG/Solicitud%20de%20vecino.png)
 
 
-![](01_CCNA/IMG/MODULO9IMG/HOST%20A%20ROUTER.png)
+![](../IMG/MODULO9IMG/01_CCNA/IMG/MODULO9IMG/HOST%20A%20ROUTER.png)
 
 **OJO:** IPv6 ND se define en IEFT RFC 4861.
 
@@ -52,7 +52,7 @@ Este proceso de resolución reemplaza las antiguas difusiones ARP y se realiza d
 
 **Anuncio de Vecino (NA - _Neighbor Advertisement_):** Es el equivalente al _ARP Reply_. El dispositivo destino que posee esa dirección IPv6 recibe la solicitud y responde entregando su dirección MAC, permitiendo que tu PC pueda armar la trama de datos y establecer la comunicación.
 
-![](Resolución%20de%20Direcciones%20en%20IPv6.png)
+![](../IMG/MODULO9IMG/Resolución%20de%20Direcciones%20en%20IPv6.png)
 
 **SLAAC** (Stateless Address Autoconfiguration) es el ==mecanismo de IPv6 que permite a un dispositivo autoasignarse una dirección IP global y el _gateway_ predeterminado sin necesidad de un servidor DHCPv6==. Funciona de manera autónoma utilizando mensajes del protocolo ICMPv6.
 
