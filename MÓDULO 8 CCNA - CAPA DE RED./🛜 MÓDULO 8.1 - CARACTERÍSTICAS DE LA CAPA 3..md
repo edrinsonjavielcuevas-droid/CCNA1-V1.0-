@@ -5,7 +5,7 @@ La Capa 3 (Capa de Red) sirve para que los dispositivos finales se manden datos 
 
 **Protocolos de capa de red**: 
 
-![](Protocolos%20de%20capa%20de%20red.png)
+![](../IMG/MODULO8IMG/Protocolos%20de%20capa%20de%20red.png)
 
 ---
 
