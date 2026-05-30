@@ -15,7 +15,7 @@ En una red LAN Ethernet, todo dispositivo operativo cuenta con dos identificador
 
 Ejemplo de representaciones MAC simplificadas.
 
-![](Ejemplo%20de%20representaciones%20MAC%20simplificadas.png)
+![](../IMG/MODULO9IMG/Ejemplo%20de%20representaciones%20MAC%20simplificadas.png)
 
 ---
 
@@ -25,7 +25,7 @@ Cuando la dirección IP de destino (IPv4 ó IPv6) está en una red remota, la di
 
 ==Representación de dirección MAC simplificada.==
 
-![](Representación%20de%20dirección%20MAC%20simplificada.png)
+![](../IMG/MODULO9IMG/Representación%20de%20dirección%20MAC%20simplificada.png)
 
 **El problema:** PC1 se da cuenta de que PC2 está en una red diferente. Por lo tanto, no puede enviarle la información directamente de tarjeta de red a tarjeta de red. Debe enviarla a su puerta de enlace o _gateway_ (el Router R1).
 
@@ -43,11 +43,11 @@ Cuando la dirección IP de destino (IPv4 ó IPv6) está en una red remota, la di
 
 En nuestro ejemplo, R1 encapsularía  el paquete con una nueva información de dirección de Capa 2 como se muestra en la imagen.
 
-![](R1%20encapsularía.png)
+![](../IMG/MODULO9IMG/R1%20encapsularía.png)
 
 La nueva dirección MAC de destino sería la de la interfaz R2 G0/0/1 y la nueva dirección MAC de origen sería la de la interfaz R1 G0/0/1.
 
-![](Saltos%20de%20la%20MAC.png)
+![](../IMG/MODULO9IMG/Saltos%20de%20la%20MAC.png)
 
 ----
 
