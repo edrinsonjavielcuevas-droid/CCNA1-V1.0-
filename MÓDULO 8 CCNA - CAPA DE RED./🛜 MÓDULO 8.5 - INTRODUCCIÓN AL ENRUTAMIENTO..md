@@ -11,11 +11,11 @@ Cuando un paquete originado en un host llega a la interfaz de un router (habitua
 
 **Criterio de la coincidencia más larga (_Longest Match_):** Para tomar la decisión final de reenvío, el router evalúa todas las rutas posibles y selecciona estrictamente la entrada que tenga la mayor coincidencia de bits con la dirección IP de destino. Esto garantiza que el paquete se envíe por la ruta más específica y exacta disponible en la topología.
 
-![](Decisión%20de%20Envío%20de%20Paquetes%20del%20Router.png)
+![](../IMG/MODULO8IMG/Decisión%20de%20Envío%20de%20Paquetes%20del%20Router.png)
 
 **Tabla de ruteo R1**
 
-![](Tabla%20de%20ruteo%20R1.png)
+![](../IMG/MODULO8IMG/Tabla%20de%20ruteo%20R1.png)
 
 ---
 
@@ -31,7 +31,7 @@ La tabla de enrutamiento de un router actúa como una base de datos que almacena
 
 La siguiente figura muestra redes directamente conectadas y remotas del router R1.
 
-![](Tabla%20de%20enrutamiento%20IP%20del%20router.png)
+![](../IMG/MODULO8IMG/Tabla%20de%20enrutamiento%20IP%20del%20router.png)
 
 **OJO:** Un router puede descrubrir redes remotas de dos maneras.
 
@@ -45,11 +45,11 @@ La siguiente figura muestra redes directamente conectadas y remotas del router R
 
 Son entradas de rutas que se configuran manualmente. Esta misma misma incluye la dirección de red remota y la dirección IP del router del salto siguiente.
 
-![](Enrutamiento%20estático.png)
+![](../IMG/MODULO8IMG/Enrutamiento%20estático.png)
 
 La principal limitación del enrutamiento estático es su incapacidad para adaptarse a las fallas o cambios en la topología de la red. Si un enlace principal se cae, la ruta no se actualiza automáticamente, lo que interrumpe la comunicación. Para restablecer el flujo de datos, un administrador de red debe intervenir y reconfigurar manualmente los dispositivos para indicarles el nuevo camino alternativo hacia el destino.
 
-![](Enrutamiento%20estático2.png)
+![](../IMG/MODULO8IMG/Enrutamiento%20estático2.png)
 
 **Características del Enrutamiento Estático**
 
@@ -71,7 +71,7 @@ La principal limitación del enrutamiento estático es su incapacidad para adapt
 
 La siguiente imagen muestra como R1 y R2 comparten información de manera automatica mediante el protocolo de enrutamiento OSPF.
 
-![](Enrutamiento%20dinámico.png)
+![](../IMG/MODULO8IMG/Enrutamiento%20dinámico.png)
 
 **Operación y Configuración del Enrutamiento Dinámico**
 
@@ -91,7 +91,7 @@ La configuración base de un protocolo dinámico requiere únicamente que el adm
 
 ---
 
-![](Operación%20y%20Configuración%20del%20Enrutamiento%20Dinámico.png)
+![](../IMG/MODULO8IMG/Operación%20y%20Configuración%20del%20Enrutamiento%20Dinámico.png)
 
 **NOTA:** Actualmente es muy común que algunos routers usen ambos protocolos de enrutamiento.
 
@@ -101,9 +101,9 @@ La configuración base de un protocolo dinámico requiere únicamente que el adm
 
 En la configuración de tablas de enrutamiento IPv4, es una práctica estándar implementar arquitecturas híbridas que combinan métodos estáticos y dinámicos para optimizar el tráfico. En una topología típica, un router interno (R1) puede utilizar una ruta estática predeterminada (_default route_) para derivar todo el tráfico cuyo destino no tenga una coincidencia específica en su tabla hacia el router de borde (R2) con acceso a Internet; mientras que, de manera simultánea, ambos dispositivos emplean un protocolo de enrutamiento dinámico como OSPF para anunciar y sincronizar automáticamente la información de sus redes locales conectadas directamente.
 
-![](Introducción%20a%20una%20tabla%20de%20enrutamiento%20IPv4.png)
+![](../IMG/MODULO8IMG/Introducción%20a%20una%20tabla%20de%20enrutamiento%20IPv4.png)
 
-![](Introducción%20a%20una%20tabla.png)
+![](../IMG/MODULO8IMG/Introducción%20a%20una%20tabla.png)
 
 ---
 
