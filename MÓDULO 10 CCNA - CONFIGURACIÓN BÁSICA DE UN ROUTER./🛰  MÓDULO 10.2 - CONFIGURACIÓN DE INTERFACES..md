@@ -11,7 +11,7 @@ En este punto, los routers tienen sus configuraciones básicas. El siguiente pas
 
 La tarea de configurar una interfaz de enrutador es muy similar a un SVI de administración en un conmutador. Específicamente, incluye la emisión de los siguientes comandos:
 
-![](CONFIG%20INTERFACES.png)
+![](../IMG/MODULO10IMG/CONFIG%20INTERFACES.png)
 
 **Nota:** Cuando se habilita una interfaz de enrutador, se deben mostrar mensajes de información confirmando el vínculo habilitado.
 
@@ -25,7 +25,7 @@ El comando `description` es una excelente práctica para documentar interfaces, 
 
 En este ejemplo, se habilitarán las interfaces directamente conectadas de R1 en el diagrama de topología.
 
-![](Ejemplo%20de%20Configuración%20de%20interfaces%20de%20routers.png)
+![](../IMG/MODULO10IMG/Ejemplo%20de%20Configuración%20de%20interfaces%20de%20routers.png)
 
 
 Para configurar las interfaces en R1, utilice los siguientes comandos.
@@ -54,7 +54,7 @@ Para configurar las interfaces en R1, utilice los siguientes comandos.
 
 Existen varios comandos que se pueden utilizar para verificar la configuración de interfaz. El más útil de estos es el comando **show ip interface brief** y **show ipv6 interface brief**, como se muestra en el ejemplo.
 
-![](Verificación%20de%20configuración%20de%20interfaz.png)
+![](../IMG/MODULO10IMG/Verificación%20de%20configuración%20de%20interfaz.png)
 
 ---
 
@@ -62,7 +62,7 @@ Existen varios comandos que se pueden utilizar para verificar la configuración 
 
 En la tabla se resumen los comandos **show** más populares utilizados para verificar la configuración de la interfaz.
 
-![](Configuración%20comandos%20de%20Verificación.png)
+![](../IMG/MODULO10IMG/Configuración%20comandos%20de%20Verificación.png)
 
 ---
 
@@ -70,31 +70,31 @@ En la tabla se resumen los comandos **show** más populares utilizados para ve
 
 **1 - Show ip interface brief.**
 
-![](Show%20ip%20interface%20brief.png)
+![](../IMG/MODULO10IMG/Show%20ip%20interface%20brief.png)
 
 **2 - Show ipv6 interface brief.**
 
-![](Show%20ipv6%20interface%20brief.png)
+![](../IMG/MODULO10IMG/Show%20ipv6%20interface%20brief.png)
 
 **3 - Show ip router.**
 
-![](Show%20ip%20router.png)
+![](../IMG/MODULO10IMG/Show%20ip%20router.png)
 
 **4 - Show ipv6 route.**
 
-![](Show%20ipv6%20route.png)
+![](../IMG/MODULO10IMG/Show%20ipv6%20route.png)
 
 **5 - Show interfaces.**
 
-![](Show%20interfaces.png)
+![](../IMG/MODULO10IMG/Show%20interfaces.png)
 
 **6 - Show ip interface.**
 
-![](Show%20ip%20interface.png)
+![](../IMG/MODULO10IMG/Show%20ip%20interface.png)
 
 **7 - Show ipv6 interface.**
 
-![](Show%20ipv6%20interface.png)
+![](../IMG/MODULO10IMG/Show%20ipv6%20interface.png)
 
 ---
 
