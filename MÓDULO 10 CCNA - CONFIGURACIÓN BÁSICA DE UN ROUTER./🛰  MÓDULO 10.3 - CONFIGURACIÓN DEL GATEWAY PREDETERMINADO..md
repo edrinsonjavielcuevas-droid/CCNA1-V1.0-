@@ -5,7 +5,7 @@ El **gateway predeterminado** (puerta de enlace) es la dirección IP de la inter
 
 **Ejemplo de la topología:** Si un router interconecta dos redes LAN, su interfaz **G0/0** se conecta a la red **192.168.10.0** y su interfaz **G0/1** a la red **192.168.11.0**. Los hosts de cada segmento usarán la IP de su respectiva interfaz como gateway. Sin embargo, si PC1 y PC2 están en la misma red y desean comunicarse entre sí, el paquete viaja directamente a través del switch local y **no** se utiliza el gateway predeterminado.
 
-![](Ejemplo%20de%20la%20topología.png)
+![](../IMG/MODULO10IMG/Ejemplo%20de%20la%20topología.png)
 
 ---
 **Comunicación hacia una Red Remota**
@@ -24,7 +24,7 @@ Cuando un dispositivo necesita enviar información a una red distinta (por ejemp
 
 ---
 
-![](Comunicación%20hacia%20una%20Red%20Remota.png)
+![](../IMG/MODULO10IMG/Comunicación%20hacia%20una%20Red%20Remota.png)
 
 El mismo proceso ocurriría en una red IPv6, aunque esto no se muestra en la topología. Los dispositivos usarían la dirección IPv6 del enrutador local como puerta de enlace predeterminada.
 
@@ -43,7 +43,7 @@ Para que la administración remota funcione correctamente, debes configurar dos 
 
 `ip default-gateway <dirección_IP_del_router>`
 
-![](Gateway%20Predeterminado%20para%20un%20Switch.png)
+![](../IMG/MODULO10IMG/Gateway%20Predeterminado%20para%20un%20Switch.png)
 
 **Administración remota en IPv4:** Para conectarte a un switch desde otra red (ej. por SSH), es **obligatorio** configurarle el gateway predeterminado a mano. Sin él, el switch recibe tu mensaje pero no sabe por dónde enviar la respuesta.
 
