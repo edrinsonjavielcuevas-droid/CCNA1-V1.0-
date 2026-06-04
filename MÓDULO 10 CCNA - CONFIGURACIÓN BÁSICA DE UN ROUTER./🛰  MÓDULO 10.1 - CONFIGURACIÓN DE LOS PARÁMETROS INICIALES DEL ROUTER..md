@@ -18,7 +18,7 @@
 
 3 - Proteger el modo EXEC de usuario.
 
-![](../IMG/MODULO10IMG/01_CCNA/IMG/Line%20console%200.png)
+![](../IMG/MODULO10IMG/Line%20console%200.png)
 
 ---
 
