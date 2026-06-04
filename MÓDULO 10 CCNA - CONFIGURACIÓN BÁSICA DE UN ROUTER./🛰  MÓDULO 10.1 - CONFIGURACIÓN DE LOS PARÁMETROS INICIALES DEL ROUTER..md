@@ -6,19 +6,19 @@
 ---
 1 - Configure el nombre del host.
 
-![](Hostname.png)
+![](../IMG/MODULO10IMG/Hostname.png)
 
 ---
 
 2 - Proteja el modo EXEC con privilegios.
 
-![](Enable%20secret.png)
+![](../IMG/MODULO10IMG/Enable%20secret.png)
 
 ---
 
 3 - Proteger el modo EXEC de usuario.
 
-![](01_CCNA/IMG/Line%20console%200.png)
+![](../IMG/MODULO10IMG/01_CCNA/IMG/Line%20console%200.png)
 
 ---
 
