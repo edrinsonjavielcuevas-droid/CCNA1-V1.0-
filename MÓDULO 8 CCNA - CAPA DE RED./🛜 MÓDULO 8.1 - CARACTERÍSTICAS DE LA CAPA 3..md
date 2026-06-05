@@ -32,7 +32,7 @@ Básicamente, el protocolo IP toma el segmento de datos que le entrega la capa d
 
 **La IP es (casi) inmutable en el viaje:** A medida que tu paquete viaja por el mundo, los routers y switches de Capa 3 van leyendo su encabezado IP para saber a dónde mandarlo. Lo importante aquí es que las direcciones IP originales se mantienen exactamente iguales desde el origen hasta el destino final, con una sola excepción: cuando se topan con un dispositivo haciendo NAT (Traducción de Direcciones de Red) en IPv4.
 
-**Los datos internos son intocables:** Aunque los routers revisen constantemente el encabezado de red para decidir las rutas, ==**nunca tocan ni alteran la carga útil**==. Es decir, los datos que vienen protegidos desde la capa de transporte pasan intactos y sin 
+**Los datos internos son intocables:** Aunque los routers revisen constantemente el encabezado de red para decidir las rutas, **nunca tocan ni alteran la carga útil**. Es decir, los datos que vienen protegidos desde la capa de transporte pasan intactos y sin 
 modificaciones durante todo el proceso de enrutamiento.
 
 ---
