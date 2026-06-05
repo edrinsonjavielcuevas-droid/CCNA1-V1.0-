@@ -23,7 +23,7 @@ Ejemplo de representaciones MAC simplificadas.
 
 Cuando la dirección IP de destino (IPv4 ó IPv6) está en una red remota, la dirección MAC será la dirección gateway predeterminada del host (es decir, la interfaz del router).
 
-==Representación de dirección MAC simplificada.==
+Representación de dirección MAC simplificada.
 
 ![](../IMG/MODULO9IMG/Representación%20de%20dirección%20MAC%20simplificada.png)
 
