@@ -11,7 +11,7 @@ La función principal de ND es exactamente la misma que cumplía ARP: **descubri
 
 **Mensajes de Descubrimiento de Vecinos (ND) en IPv6**
 
-==El protocolo de Descubrimiento de Vecinos (ND o NDP) en IPv6 es mucho más robusto que el antiguo ARP de IPv4. ND no solo se encarga de la resolución de direcciones MAC, sino que también asume las tareas de descubrimiento de routers y redirección de tráfico.==
+El protocolo de Descubrimiento de Vecinos (ND o NDP) en IPv6 es mucho más robusto que el antiguo ARP de IPv4. ND no solo se encarga de la resolución de direcciones MAC, sino que también asume las tareas de descubrimiento de routers y redirección de tráfico.
 
 Para realizar estas funciones, ND opera mediante el protocolo **ICMPv6** utilizando cinco tipos de mensajes fundamentales:
 
