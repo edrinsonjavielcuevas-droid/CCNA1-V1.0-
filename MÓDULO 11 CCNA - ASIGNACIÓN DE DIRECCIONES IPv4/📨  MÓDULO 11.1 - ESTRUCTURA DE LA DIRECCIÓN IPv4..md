@@ -34,13 +34,13 @@ La máscara de subred actúa como una "plantilla" o "filtro" que le indica al di
 
 **Máscara de subred:**
 
-![](Máscara%20de%20subred.png)
+![](../IMG/MODULO11IMG/Máscara%20de%20subred.png)
 
 Una máscara de subred es una secuencia continua de unos (1) seguida de ceros (0). Para separar la porción de red de la del host, el dispositivo compara esta máscara con la dirección IPv4 bit a bit, de izquierda a derecha.
 
 En la siguiente imagen podemos ver una IPv4 vs su Máscara de subred.
 
-![](IPv4%20vs%20su%20Máscara%20de%20subred.png)
+![](../IMG/MODULO11IMG/IPv4%20vs%20su%20Máscara%20de%20subred.png)
 
 **Nota:** La máscara de subred no contiene datos de la dirección; solo funciona como una guía que le indica al equipo dónde buscar las porciones de red y host. Para extraer exactamente la porción de red, la computadora utiliza la operación lógica binaria llamada **AND**.
 
@@ -52,7 +52,7 @@ Es un método abreviado y más sencillo para expresar la máscara de subred. En 
 
 **Comparación de máscara de subred y longitud de sufijo**
 
-![](Comparación%20de%20máscara%20de%20subred%20y%20longitud%20de%20sufijo.png)
+![](../IMG/MODULO11IMG/Comparación%20de%20máscara%20de%20subred%20y%20longitud%20de%20sufijo.png)
 
 **Sinónimo:** La _dirección de red_ también se llama comúnmente **prefijo** o **prefijo de red**. Por eso, a la cantidad de unos (1) en la máscara se le llama _longitud del prefijo_.
 
@@ -90,7 +90,7 @@ Es la operación booleana fundamental que utilizan los dispositivos de red para 
 
 **Dirección de Red (Resultado del AND):** `192.168.10.0`
 
-![](Cálculo%20de%20la%20Dirección%20de%20Red%20(Operación%20AND).png)
+![](../IMG/MODULO11IMG/Cálculo%20de%20la%20Dirección%20de%20Red%20(Operación%20AND).png)
 
 **Propósito de la Operación AND**
 
@@ -108,7 +108,7 @@ Dentro de cada red, las direcciones IP se clasifican en tres tipos fundamentales
 
 **Dirección de Broadcast (Difusión):** Se utiliza para enviar un mensaje a _todos_ los dispositivos de esa red simultáneamente.
 
-![](Direcciones%20de%20red,%20de%20host%20y%20de%20difusión.png)
+![](../IMG/MODULO11IMG/Direcciones%20de%20red,%20de%20host%20y%20de%20difusión.png)
 
 ---
 
@@ -124,7 +124,7 @@ Estar físicamente (o lógicamente a través de VLANs) en el mismo **dominio de 
 
 **OJO:** Esta dirección **nunca se le puede asignar a un dispositivo** (ni a una PC, ni a la interfaz de un router).
 
-![](Características%20de%20la%20Dirección%20de%20Red.png)
+![](../IMG/MODULO11IMG/Características%20de%20la%20Dirección%20de%20Red.png)
 
 ---
 
