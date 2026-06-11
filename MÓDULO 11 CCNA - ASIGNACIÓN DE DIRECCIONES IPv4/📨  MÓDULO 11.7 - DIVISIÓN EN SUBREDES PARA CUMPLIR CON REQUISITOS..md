@@ -9,7 +9,7 @@
 
 **Espacio de direcciones IPv4 público y privado**
 
-![](Espacio%20de%20direcciones%20IPv4%20público%20y%20privado.png)
+![](../IMG/MODULO11IMG/Espacio%20de%20direcciones%20IPv4%20público%20y%20privado.png)
 
 **Subredes en la Intranet y DMZ**
 
@@ -22,14 +22,14 @@ Esta configuración es ideal para organizaciones que necesitan menos de 200 subr
 ---
 ### Subnetting Network 10.0.0.0/8 using a /16
 
-![](Subnetting%20Network%202.png)
+![](../IMG/MODULO11IMG/Subnetting%20Network%202.png)
 
 Otra opción que utiliza la dirección de red privada IPv4 10.0.0.0/8 es subred usando una máscara /24. Como se muestra en la tabla, esto da como resultado 65.536 subredes, con 254 hosts por subred. Si una organización necesita más de 256 subredes, se puede utilizar un /24 con 254 hosts por subred.
 
 ---
 ### Subnetting Network 10.0.0.0/8 using a /24
 
-![](Subnetting%20Network%2010.png)
+![](../IMG/MODULO11IMG/Subnetting%20Network%2010.png)
 
 
 El 10.0.0.0/8 también se puede subred usando cualquier otro número de longitudes de prefijo, como /12, /18, /20, etc. Esto daría al administrador de red una amplia variedad de opciones. El uso de una dirección de red IPv4 privada 10.0.0.0/8 facilita la planificación e implementación de subredes.
@@ -50,7 +50,7 @@ Para optimizar el direccionamiento IPv4 sin desperdiciar IPs, la planificación 
 
 ### Subnetting a /24 Network
 
-![](Subnetting%20a%2024%20Network.png)
+![](../IMG/MODULO11IMG/Subnetting%20a%2024%20Network.png)
 
 Los administradores de redes deben diseñar un esquema de direccionamiento de red que admita la cantidad máxima de hosts para cada red y la cantidad de subredes. El esquema de direccionamiento debe permitir el crecimiento tanto de la cantidad de direcciones de host por subred como de la cantidad total de subredes.
 
@@ -58,7 +58,7 @@ Los administradores de redes deben diseñar un esquema de direccionamiento de re
 
 **Topología corporativa con cinco sitios**
 
-![](Topología%20corporativa%20con%20cinco%20sitios.png)
+![](../IMG/MODULO11IMG/Topología%20corporativa%20con%20cinco%20sitios.png)
 
 La dirección de red 172.16.0.0/22 tiene 10 bits de host, como se muestra en la figura. Debido a que la subred más grande requiere 40 hosts, se debe tomar prestado un mínimo de 6 bits de host para proporcionar el direccionamiento de los 40 hosts. Esto se determina utilizando esta fórmula: 2^6 - 2 = 62 hosts.
 
@@ -66,13 +66,13 @@ La dirección de red 172.16.0.0/22 tiene 10 bits de host, como se muestra en la 
 
 **Esquema de subredes**
 
-![](Esquema%20de%20subredes.png)
+![](../IMG/MODULO11IMG/Esquema%20de%20subredes.png)
 
 ---
 
 **Asignaciones de subred a cada sitio e ISP**
 
-![](Asignaciones%20de%20subred%20a%20cada%20sitio%20e%20ISP.png)
+![](../IMG/MODULO11IMG/Asignaciones%20de%20subred%20a%20cada%20sitio%20e%20ISP.png)
 
 ---
 
