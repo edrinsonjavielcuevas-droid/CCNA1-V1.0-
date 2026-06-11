@@ -33,15 +33,15 @@ El agotamiento de direcciones IPv4 exige optimizar el espacio disponible (un pro
 
 **Análisis del Escenario:** La siguiente topología necesita **siete subredes** (4 para las LAN y 3 para las conexiones WAN). Si usamos el método tradicional en la red `192.168.20.0/24`, debemos crear 8 subredes fijas de **30 hosts utilizables cada una**. Aunque esto cubre la LAN más grande (Edificio D, con 28 hosts), desperdicia muchísimas direcciones en los enlaces WAN, que solo necesitan 2 hosts.
 
-![](Conservación%20IPv4%20y%20Subredes%20Tradicionales.png)
+![](../IMG/MODULO11IMG/Conservación%20IPv4%20y%20Subredes%20Tradicionales.png)
 
 **Esquema de subredes básico**
 
-![](Esquema%20de%20subredes%20básico.png)
+![](../IMG/MODULO11IMG/Esquema%20de%20subredes%20básico.png)
 
 Estas siete subredes podrían asignarse a las redes LAN y WAN, como se muestra en la figura.
 
-![](siete%20subredes.png)
+![](../IMG/MODULO11IMG/siete%20subredes.png)
 
 Si bien la división en subredes tradicional satisface las necesidades de la LAN más grande y divide el espacio de direcciones en una cantidad adecuada de subredes, da como resultado un desperdicio significativo de direcciones sin utilizar.
 
@@ -49,7 +49,7 @@ Por ejemplo, solo se necesitan dos direcciones en cada subred para los tres enla
 
 **Direcciones sin utilizar en subredes WAN**
 
-![](Direcciones%20sin%20utilizar%20en%20subredes%20WAN.png)
+![](../IMG/MODULO11IMG/Direcciones%20sin%20utilizar%20en%20subredes%20WAN.png)
 
 Además, de esta forma se limita el crecimiento futuro al reducir el número total de subredes disponibles. Este uso ineficiente de las direcciones es característico de la división en subredes tradicional. La aplicación de un esquema de división en subredes tradicional a esta situación no resulta muy eficiente y genera desperdicio.
 
@@ -63,17 +63,17 @@ La máscara de subred de longitud variable (VLSM) se desarrolló para evitar el 
 
 **La Ventaja de VLSM:** Permite dividir el espacio de red en **partes desiguales**. La máscara de subred cambia (varía) según la cantidad específica de bits que se toman prestados para cada subred en particular. De ahí proviene el nombre "longitud variable", ya que te permite ajustar la máscara al tamaño exacto que necesita cada segmento, optimizando el espacio al máximo.
 
-![](El%20Concepto%20de%20VLSM.png)
+![](../IMG/MODULO11IMG/El%20Concepto%20de%20VLSM.png)
 
 VLSM simplemente subdivide una subred. La misma topología utilizada anteriormente se muestra en la figura. Nuevamente, usaremos la red 192.168.20.0/24 y la subred para siete subredes, una para cada una de las cuatro LAN, y una para cada una de las tres conexiones entre los routeres.
 
-![](La%20misma%20topología%20utilizada.png)
+![](../IMG/MODULO11IMG/La%20misma%20topología%20utilizada.png)
 
 La figura muestra cómo la red 192.168.20.0/24 se subredes en ocho subredes de igual tamaño con 30 direcciones de host utilizables por subred. Se usan cuatro subredes para las LAN y tres subredes para las conexiones entre los routers.
 
 **Esquema Básico de Subredes**
 
-![](Esquema%20Básico%20de%20Subredes.png)
+![](../IMG/MODULO11IMG/Esquema%20Básico%20de%20Subredes.png)
 
 Sin embargo, las conexiones entre los routeres requieren sólo dos direcciones de host por subred (una dirección de host para cada interfaz del router). Actualmente todas las subredes tienen 30 direcciones de host utilizables por subred. Para evitar desperdiciar 28 direcciones por subred, VLSM puede usarse para crear subredes más pequeñas para las conexiones entre routeres.
 
@@ -81,12 +81,12 @@ Para crear subredes más pequeñas para los enlaces WAN, se dividirá una de las
 
 **Esquema de división en subredes de VLSM**
 
-![](Esquema%20de%20división%20en%20subredes%20de%20VLSM.png)
+![](../IMG/MODULO11IMG/Esquema%20de%20división%20en%20subredes%20de%20VLSM.png)
 
 
 ¿Por qué /30? Recuerde que cuando se conoce el número de direcciones de host necesarias, se puede usar la fórmula 2n -2 (donde n es igual al número de bits de host restantes). Para proporcionar dos direcciones utilizables, se deben dejar dos bits de host en la parte del host. Debido a que hay cinco bits de host en el espacio de direcciones subred 192.168.20.224/27, se pueden pedir prestados tres bits más, dejando dos bits en la porción de host. Los cálculos que se realizan llegado este punto son exactamente los mismos que se utilizan para la división en subredes tradicional: Se toman prestados los bits, y se determinan los rangos de subred. La figura muestra cómo las cuatro subredes /27 se han asignado a las LAN y tres de las subredes /30 se han asignado a los enlaces entre routeres.
 
-![](Por%20qué%2030.png)
+![](../IMG/MODULO11IMG/Por%20qué%2030.png)
 
 Este esquema de subredes VLSM reduce el número de direcciones por subred a un tamaño apropiado para las redes que requieren menos subredes. La subred subred 7 para enlaces entre routeres permite que las subredes 4, 5 y 6 estén disponibles para redes futuras, así como cinco subredes adicionales disponibles para conexiones entre routeres.
 
@@ -99,7 +99,7 @@ Usando las subredes VLSM, las redes LAN y entre routeres se pueden abordar sin d
 
 La figura muestra las asignaciones de direcciones de red y las direcciones IPv4 asignadas a cada interfaz de router.
 
-![](Asignación%20de%20direcciones%20de%20topología%20VLSM.png)
+![](../IMG/MODULO11IMG/Asignación%20de%20direcciones%20de%20topología%20VLSM.png)
 
 **Interfaz del Router:** Se le asigna la **primera dirección IPv4** de host de cada subred a su interfaz LAN.
 
@@ -109,7 +109,7 @@ La figura muestra las asignaciones de direcciones de red y las direcciones IPv4 
 
 **Tabla de Referencia:** Muestra el desglose de las direcciones de red, los intervalos de hosts y la dirección de gateway predeterminado para cuatro redes LAN.
 
-![](Esquema%20de%20Direccionamiento.png)
+![](../IMG/MODULO11IMG/Esquema%20de%20Direccionamiento.png)
 
 ---
 
