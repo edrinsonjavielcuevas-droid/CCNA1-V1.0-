@@ -16,7 +16,7 @@
 
 Sin control, la difusión puede saturar una red grande. Para limitar su alcance y mejorar el rendimiento, se utilizan **routers**, los cuales actúan como barreras naturales que **no reenvían** las tramas de difusión, segmentando así la red en dominios de difusión más pequeños y manejables.
 
-![](Dominio%20de%20difusi'on.png)
+![](../IMG/MODULO11IMG/Dominio%20de%20difusi'on.png)
 
 ---
 #### Optimización de Redes: División en Subredes
@@ -31,28 +31,28 @@ Al segmentar, cada subred actúa como su propio dominio de difusión independien
 
 **Nota:** Aunque técnicamente "subred" y "red" tienen definiciones distintas, en la práctica profesional se usan frecuentemente como sinónimos para referirse a cualquier bloque de direccionamiento funcional.
 
-![](Un%20dominio%20de%20difusión%20amplio.png)
+![](../IMG/MODULO11IMG/Un%20dominio%20de%20difusión%20amplio.png)
 
-![](Comunicación%20entre%20red.png)
+![](../IMG/MODULO11IMG/Comunicación%20entre%20red.png)
 
 ---
 #### Razones para segmentar una red:
 
 **Ubicación:**
 
-![](DIvisión%20de%20una%20red%20por%20ubicación.png)
+![](../IMG/MODULO11IMG/DIvisión%20de%20una%20red%20por%20ubicación.png)
 
 ---
 
 **Grupo o fusión:**
 
-![](Subredes%20por%20grupo%20o%20fusión.png)
+![](../IMG/MODULO11IMG/Subredes%20por%20grupo%20o%20fusión.png)
 
 ---
 
 **Tipo de dispositivo:**
 
-![](TIpos%20de%20dispositivos%20para%20subnetting.png)
+![](../IMG/MODULO11IMG/TIpos%20de%20dispositivos%20para%20subnetting.png)
 
 ---
 
