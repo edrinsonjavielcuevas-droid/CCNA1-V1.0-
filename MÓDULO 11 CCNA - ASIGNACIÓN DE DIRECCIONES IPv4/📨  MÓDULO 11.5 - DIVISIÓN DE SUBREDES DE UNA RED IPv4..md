@@ -21,8 +21,7 @@ La creación de subredes (_subnetting_) consiste básicamente en **tomar prestad
 
 ### Subnetting Network 10.0.0.0/8 using a /16
 
-![](../IMG/MODULO11IMG/01_CCNA/IMG/MODULO11IMG/Subnetting%20Network.png)
-
+![](../IMG/MODULO11IMG/Subnetting%20Network.png)
 
 ---
 
