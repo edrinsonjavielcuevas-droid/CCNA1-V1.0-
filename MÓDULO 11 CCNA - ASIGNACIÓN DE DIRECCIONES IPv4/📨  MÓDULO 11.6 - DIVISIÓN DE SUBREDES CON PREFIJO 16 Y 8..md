@@ -39,7 +39,7 @@
 
 ### Cree 100 subredes con un prefijo /16
 
-![](01_CCNA/IMG/MODULO11IMG/Cantidad%20de%20subredes%20creadas.png)
+![](../IMG/MODULO11IMG/Cantidad%20de%20subredes%20creadas.png)
 
 Para satisfacer el requisito de 100 subredes, se necesitarían prestar 7 bits (es decir, 27 = 128 subredes) (para un total de 128 subredes), como se muestra en la figura.
 
@@ -49,11 +49,11 @@ Recuerde que la máscara de subred debe modificarse para que se muestren los bit
 
 En la figura, se muestran las subredes resultantes desde 172.16.0.0 /23 hasta 172.16.254.0 /23.
 
-![697](subredes%20resultantes.png)
+![697](../IMG/MODULO11IMG/subredes%20resultantes.png)
 
 **Intervalo de direcciones para la subred 172.16.0.0/23**
 
-![](ntervalo%20de%20direcciones%20para%20la%20subred.png)
+![](../IMG/MODULO11IMG/ntervalo%20de%20direcciones%20para%20la%20subred.png)
 
 ---
 
@@ -61,16 +61,16 @@ En la figura, se muestran las subredes resultantes desde 172.16.0.0 /23 hasta 17
 
 **Cantidad de subredes creadas**
 
-![](Cantidad%20de%20subredes%20creadas%201.png)
+![](../IMG/MODULO11IMG/Cantidad%20de%20subredes%20creadas%201.png)
 
 **Subredes /18 resultantes**
 
-![](Subredes%2018%20resultantes.png)
+![](../IMG/MODULO11IMG/Subredes%2018%20resultantes.png)
 
 Prestar 10 bits para crear las subredes, deja 14 bits host para cada subred. Restar dos hosts por subred (uno para la dirección de red y otro para la dirección de difusión) equivale a 2^14 - 2 = 16382 hosts por subred. Esto indica que cada una de las 1000subredes puede admitir hasta 16382 hosts.
 
 **Intervalo de direcciones para la subred 10.0.0.0/18**
 
-![](Intervalo%20de%20direcciones%20para%20la%20subred.png)
+![](../IMG/MODULO11IMG/Intervalo%20de%20direcciones%20para%20la%20subred.png)
 
 ----
