@@ -9,7 +9,7 @@ Una dirección IPv4 es una secuencia de **32 bits** dividida en dos partes jerá
 
 **Porción de Host:** Identifica al dispositivo específico (el host) dentro de esa red. Cada host dentro de la misma red debe tener una porción de host **única** para ser diferenciado de los demás.
 
-![](Direccion%20IPv4.png)
+![](../IMG/MODULO11IMG/Direccion%20IPv4.png)
 
 ----
 
