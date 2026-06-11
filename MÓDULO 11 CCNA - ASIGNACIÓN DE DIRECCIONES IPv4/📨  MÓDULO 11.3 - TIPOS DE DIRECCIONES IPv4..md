@@ -17,7 +17,7 @@
 
 **Bloque de direcciones privadas:**
 
-![](Bloque%20de%20direcciones%20privadas.png)
+![](../IMG/MODULO11IMG/Bloque%20de%20direcciones%20privadas.png)
 
 **Nota:** Las direcciones privadas se definen en RFC 1918 y a veces se denomina espacio de direcciones RFC 1918.
 
@@ -33,7 +33,7 @@ Los proveedores de Internet (ISP) bloquean y descartan cualquier paquete que lle
 
 Para permitir que las IPs privadas naveguen en Internet, se utiliza **NAT (Traducción de Direcciones de Red)**, que convierte las direcciones privadas internas en una dirección pública válida antes de que el paquete salga de la red.
 
-![](NAT.png)
+![](../IMG/MODULO11IMG/NAT.png)
 
 **Implementación de NAT y Zona Desmilitarizada (DMZ)**
 
@@ -51,7 +51,7 @@ A diferencia de la red interna, los equipos en la DMZ utilizan **direcciones IPv
 
 En esta arquitectura, el router realiza un trabajo triple: enrutamiento normal, traducción NAT (para los usuarios internos) y funciones de **firewall** para proteger tanto la DMZ como la intranet.
 
-![](Zona%20Desmilitarizada%20(DMZ).png)
+![](../IMG/MODULO11IMG/Zona%20Desmilitarizada%20(DMZ).png)
 
 ----
 
@@ -61,7 +61,7 @@ En esta arquitectura, el router realiza un trabajo triple: enrutamiento normal, 
 
 Las direcciones de loopback, que abarcan el bloque **127.0.0.0/8** (comúnmente representadas por la **127.0.0.1**), son direcciones IPv4 de uso especial que un host utiliza para dirigir el tráfico hacia sí mismo. Su propósito principal es permitirle al equipo probar si su propia configuración interna de TCP/IP está funcionando correctamente. Al utilizar herramientas como el comando `ping` hacia cualquier dirección dentro de este rango, el tráfico nunca sale a la red externa, sino que realiza un bucle invertido y es respondido directamente por el propio host local.
 
-![](Direcciones%20de%20Loopback.png)
+![](../IMG/MODULO11IMG/Direcciones%20de%20Loopback.png)
 
 **Direcciones Link-Local (APIPA)**
 
@@ -94,7 +94,7 @@ La gestión de las direcciones IP (tanto IPv4 como IPv6) sigue una estructura je
 
 **Organizaciones:** Las empresas o entidades reciben sus bloques de direcciones de sus proveedores (ISP) o, dependiendo de sus políticas y tamaño, pueden solicitar bloques de direcciones directamente a un RIR.
 
-![](REGISTRO%20REGIONAL%20DE%20INTERNET.png)
+![](../IMG/MODULO11IMG/REGISTRO%20REGIONAL%20DE%20INTERNET.png)
 
 ---
 
