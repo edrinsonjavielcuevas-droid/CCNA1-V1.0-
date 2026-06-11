@@ -15,20 +15,20 @@ La creación de subredes (_subnetting_) consiste básicamente en **tomar prestad
 
 **Máscaras de subred en límites de octetos**
 
-![](Máscaras%20de%20subred%20en%20límites%20de%20octetos.png)
+![](../IMG/MODULO11IMG/Máscaras%20de%20subred%20en%20límites%20de%20octetos.png)
 
 ----
 
 ### Subnetting Network 10.0.0.0/8 using a /16
 
-![](01_CCNA/IMG/MODULO11IMG/Subnetting%20Network.png)
+![](../IMG/MODULO11IMG/01_CCNA/IMG/MODULO11IMG/Subnetting%20Network.png)
 
 
 ---
 
 ### Subnetting Network 10.0.0.0/8 using a /24 Prefix
 
-![](Subnetting%20Network%201.png)
+![](../IMG/MODULO11IMG/Subnetting%20Network%201.png)
 
 ---
 
@@ -36,7 +36,7 @@ La creación de subredes (_subnetting_) consiste básicamente en **tomar prestad
 
 *Subnet a /24 Network.*
 
-![](Subnet%20a%2024.png)
+![](../IMG/MODULO11IMG/Subnet%20a%2024.png)
 
 Por cada bit que se toma prestado en el cuarto octeto, la cantidad de subredes disponible se duplica, al tiempo que se reduce la cantidad de direcciones de host por subred.
 
