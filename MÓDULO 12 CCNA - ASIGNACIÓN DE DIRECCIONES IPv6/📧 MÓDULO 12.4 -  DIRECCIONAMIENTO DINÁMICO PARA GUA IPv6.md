@@ -24,7 +24,7 @@ El mensaje RA indica al dispositivo cómo completar su configuración mediante e
 
 **Mensajes de RS y RA de ICMPv6.**
 
-![](Mensajes%20de%20RS%20y%20RA%20de%20ICMPv6.png)
+![](../IMG/MODULO12IMG/Mensajes%20de%20RS%20y%20RA%20de%20ICMPv6.png)
 
 ---
 
@@ -46,7 +46,7 @@ La dirección se construye combinando dos elementos:
 
 **Generación aleatoria:** El sistema operativo crea un número de 64 bits de forma aleatoria.
 
-![](Funcionamiento%20de%20SLAAC.png)
+![](../IMG/MODULO12IMG/Funcionamiento%20de%20SLAAC.png)
 
 ----
 
@@ -67,7 +67,7 @@ En esta modalidad, el router envía un mensaje RA que instruye al dispositivo a 
 
 
 
-![](01_CCNA/IMG/MODULO12IMG/Funcionamiento%20del%20método.png)
+![](../IMG/MODULO12IMG/Funcionamiento%20del%20método.png)
 
 ---
 
@@ -85,7 +85,7 @@ El router envía un mensaje RA que instruye al dispositivo a ignorar la autoconf
 
 > **Dato crítico:** El mensaje RA del router es indispensable en todos los casos, ya que es el único mecanismo que proporciona la **dirección de puerta de enlace predeterminada**. Ni los servidores DHCPv6 _stateful_ ni los _stateless_ tienen la capacidad de configurar este parámetro en el cliente.
 
-![](Funcionamiento%20del%20método%201.png)
+![](../IMG/MODULO12IMG/Funcionamiento%20del%20método%201.png)
 
 
 ---
@@ -95,7 +95,7 @@ En los métodos SLAAC y SLAAC con DHCPv6 sin estado, el router proporciona el pr
 
 **Creación dinámica de un ID de interfaz**
 
-![](Creación%20dinámica%20de%20un%20ID%20de%20interfaz.png)
+![](../IMG/MODULO12IMG/Creación%20dinámica%20de%20un%20ID%20de%20interfaz.png)
 
 ---
 
@@ -111,11 +111,11 @@ En los métodos SLAAC y SLAAC con DHCPv6 sin estado, el router proporciona el pr
 | **Ventaja principal**         | Facilita a los administradores de red rastrear una dirección IPv6 directamente hasta el hardware físico (la tarjeta de red) usando la dirección MAC.                                                                    |
 | **Desventaja (Privacidad)**   | Al exponer la MAC, genera preocupaciones de privacidad porque los paquetes pueden rastrearse hasta un equipo físico real. Por esto, muchos sistemas operativos modernos prefieren **generar el ID de forma aleatoria**. |
 
-![](Proceso%20EUI-64.png)
+![](../IMG/MODULO12IMG/Proceso%20EUI-64.png)
 
 **ID de interfaz generada por EUI-64**
 
-![](ID%20de%20interfaz%20generada%20por%20EUI-64.png)
+![](../IMG/MODULO12IMG/ID%20de%20interfaz%20generada%20por%20EUI-64.png)
 
 ---
 
