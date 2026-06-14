@@ -147,8 +147,11 @@ Configuración IP de Windows
 Adaptador de Ethernet Conexión de área local:
 
 Sufijo DNS específico para la conexión. . :
+
 Dirección IPv6. . . . . . . . . . . . . . : 2001:db8:cafe:99:a1b2:c3d4:e5f6:7788
+
 Dirección IPv6 local de vínculo . . . . . : fe80::a1b2:c3d4:e5f6:7788
+
 Puerta de enlace predeterminada . . . . . : fe80::1
 
 **NOTA:** Puedes saber instantáneamente que esta PC generó su dirección de forma aleatoria (y no por EUI-64) porque en el medio de su ID de interfaz (`a1b2:c3d4:e5f6:7788`) **no** aparece el valor `ff:fe`.
