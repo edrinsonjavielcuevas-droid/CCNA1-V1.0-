@@ -28,7 +28,7 @@ El estándar recomendado para redes LAN y la mayoría de los despliegues es **`/
 
 **Longitud del prefijo IPv6**
 
-![](Longitud%20del%20prefijo%20IPv6.png)
+![](../IMG/MODULO12IMG/Longitud%20del%20prefijo%20IPv6.png)
 
 Se recomienda utilizar un ID de interfaz de 64 bits en la mayoría de las redes porque la autoconfiguración de direcciones sin estado (SLAAC) emplea esta longitud específica. Además, esta medida simplifica significativamente tanto la creación como la administración de las subredes.
 
@@ -40,7 +40,7 @@ Las direcciones IPv6 de unidifusión identifican de manera exclusiva una interfa
 
 **Direcciones IPv6 de unidifusión**
 
-![](Direcciones%20IPv6%20de%20unidifusión.png)
+![](../IMG/MODULO12IMG/Direcciones%20IPv6%20de%20unidifusión.png)
 
 **Dirección de Unidifusión Global (GUA):** Es el equivalente a una dirección IPv4 pública. Estas direcciones son exclusivas a nivel mundial y son totalmente enrutables a través de Internet, permitiendo que el dispositivo sea accesible desde cualquier parte de la red global. Pueden configurarse de forma manual (estática) o automática (dinámica).
 
@@ -60,13 +60,13 @@ Las **GUA** son direcciones globalmente únicas y enrutables en Internet, siendo
 
 **Reserva especial:** El bloque `2001:db8::/32` está reservado exclusivamente para propósitos de **documentación y ejemplos**, por lo que no debe usarse en redes reales.
 
-![](IPv6%20GUA.png)
+![](../IMG/MODULO12IMG/IPv6%20GUA.png)
 
 La siguiente imagen muestra la estructura y el rango de una GUA.
 
 **Direcciones IPv6 con un prefijo de enrutamiento global /48  y un prefijo /64.
 
-![](Direcciones%20IPv6%20con%20un%20prefijo%20de%20enrutamiento%20global.png)
+![](../IMG/MODULO12IMG/Direcciones%20IPv6%20con%20un%20prefijo%20de%20enrutamiento%20global.png)
 
 
 ---
@@ -103,11 +103,11 @@ Las **Direcciones Locales de Enlace (LLA)** son un componente vital en IPv6, dis
 
 **Comunicaciones de enlace local de IPv6**
 
-![](Comunicaciones%20de%20enlace%20local%20de%20IPv6.png)
+![](../IMG/MODULO12IMG/Comunicaciones%20de%20enlace%20local%20de%20IPv6.png)
 
 La siguiente imagen muestra algunos de los usos de la LLA en IPv6:
 
-![](usos%20de%20la%20LLA%20en%20IPv6.png)
+![](../IMG/MODULO12IMG/usos%20de%20la%20LLA%20en%20IPv6.png)
 
 
 Existen dos métodos para que un dispositivo obtenga su LLA:
