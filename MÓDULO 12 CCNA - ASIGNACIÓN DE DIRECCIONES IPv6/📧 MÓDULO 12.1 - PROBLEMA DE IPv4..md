@@ -5,7 +5,7 @@ Existen varios protocolos para migrar de IPv4 a IPv6, aunque realmente una no re
 
 **1. Dual-stack (Doble pila)** Esta técnica permite que los protocolos IPv4 e IPv6 coexistan en el mismo segmento de red. Los dispositivos ejecutan ambas pilas de protocolos de manera simultánea, lo que facilita una conectividad nativa donde la red del cliente tiene acceso directo a Internet a través de IPv6.
 
-![](Dual%20stack.png)
+![](../IMG/MODULO12IMG/Dual%20stack.png)
 
 ---
 
