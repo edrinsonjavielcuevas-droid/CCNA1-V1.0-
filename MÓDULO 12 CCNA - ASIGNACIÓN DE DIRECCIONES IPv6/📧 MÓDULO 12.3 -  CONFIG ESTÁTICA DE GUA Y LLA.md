@@ -18,13 +18,13 @@ Mientras que en IPv4 usas `ip address [dirección] [máscara]`, en IPv6 el coman
 
 **Topología de ejemplo**
 
-![](Topología%20de%20ejemplo.png)
+![](../IMG/MODULO12IMG/Topología%20de%20ejemplo.png)
 
 El ejemplo muestra los comandos necesarios para configurar la GUA IPv6 en GigabitEthernet 0/0/0, GigabitEthernet 0/0/1 y la interfaz Serial 0/1/0 de R1.
 
 ### Configuración de IPv6 GUA en el router R1
 
-![](Configuración%20de%20IPv6%20GUA%20en%20el%20router%20R1.png)
+![](../IMG/MODULO12IMG/Configuración%20de%20IPv6%20GUA%20en%20el%20router%20R1.png)
 
 ----
 
@@ -34,7 +34,7 @@ Configurar la dirección IPv6 en un host de forma manual es similar a configurar
 
 Como se muestra en la figura, la dirección de puerta de enlace predeterminada configurada para PC1 es 2001: db8: acad: 1 :: 1. Esta es la GUA de la interfaz R1 GigabitEthernet en la misma red. Alternativamente, la dirección de puerta de enlace predeterminada se puede configurar para que coincida con el LLA de la interfaz GigabitEthernet. El uso de la LLA del enrutador como dirección de puerta de enlace predeterminada se considera una práctica recomendada. Cualquiera de las dos configuraciones funciona.
 
-![](Configuración%20de%20GUA%20estática%20en%20un%20host%20de%20Windows.png)
+![](../IMG/MODULO12IMG/Configuración%20de%20GUA%20estática%20en%20un%20host%20de%20Windows.png)
 
 En redes grandes, la asignación dinámica es indispensable. Los clientes obtienen su **GUA** mediante dos métodos:
 
@@ -60,11 +60,11 @@ Configurar una **LLA (Link-Local Address)** manualmente permite crear direccione
 
 **Ejemplo de topología con LLAS**
 
-![](Ejemplo%20de%20topología%20con%20LLAS.png)
+![](../IMG/MODULO12IMG/Ejemplo%20de%20topología%20con%20LLAS.png)
 
 El ejemplo muestra la configuración de un LLA en el router R1.
 
-![](El%20ejemplo%20muestra%20la%20configuración%20de%20un%20LLA%20en%20el%20router%20R1.png)
+![](../IMG/MODULO12IMG/El%20ejemplo%20muestra%20la%20configuración%20de%20un%20LLA%20en%20el%20router%20R1.png)
 
 Las LAs configuradas estáticamente se utilizan para hacerlas más fácilmente reconocibles como pertenecientes al router R1. En este ejemplo, todas las interfaces del router R1 se han configurado con un LLA que comienza con **fe80::1:**_n_ y un dígito único «n» a la derecha. El «**1**» representa el router R1.
 
