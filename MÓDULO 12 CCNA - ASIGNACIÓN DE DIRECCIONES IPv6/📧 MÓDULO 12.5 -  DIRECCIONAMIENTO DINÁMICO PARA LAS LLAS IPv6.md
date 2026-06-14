@@ -6,7 +6,7 @@ Todo dispositivo IPv6 debe tener una LLA obligatoria. Tanto las LLA como las GUA
 
 La figura muestra que el LLA se crea dinámicamente usando el prefijo fe80 :: / 10 y la ID de interfaz usando el proceso EUI-64, o un número de 64 bits generado aleatoriamente.
 
-![](LLA%20dinámicos.png)
+![](../IMG/MODULO12IMG/LLA%20dinámicos.png)
 
 ---
 
@@ -16,11 +16,11 @@ Los sistemas operativos, como Windows, suelen utilizar el mismo método tanto pa
 
 **ID de interfaz generada mediante EUI-64**
 
-![](ID%20de%20interfaz%20generada%20mediante%20EUI-64.png)
+![](../IMG/MODULO12IMG/ID%20de%20interfaz%20generada%20mediante%20EUI-64.png)
 
 **ID de interfaz de 64 bits generada aleatoriamente**
 
-![](ID%20de%20interfaz%20de%2064%20bits%20generada%20aleatoriamente.png)
+![](../IMG/MODULO12IMG/ID%20de%20interfaz%20de%2064%20bits%20generada%20aleatoriamente.png)
 
 ---
 
@@ -36,13 +36,13 @@ Los sistemas operativos, como Windows, suelen utilizar el mismo método tanto pa
 
 **IPv6 LLA con EUI-64 en el router R1**
 
-![](IPv6%20LLA%20con%20EUI-64%20en%20el%20router%20R1.png)
+![](../IMG/MODULO12IMG/IPv6%20LLA%20con%20EUI-64%20en%20el%20router%20R1.png)
 
 **Verifique la configuración de la dirección IPv6**
 
 La figura muestra el ejemplo de topología.
 
-![](Verifique%20la%20configuración%20de%20la%20dirección%20IPv6.png)
+![](../IMG/MODULO12IMG/Verifique%20la%20configuración%20de%20la%20dirección%20IPv6.png)
 
 ---
 
