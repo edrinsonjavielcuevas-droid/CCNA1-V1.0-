@@ -11,13 +11,13 @@ Existen varios protocolos para migrar de IPv4 a IPv6, aunque realmente una no re
 
 **2. Tunelización** La tunelización es un método que permite transportar paquetes IPv6 a través de una infraestructura de red que solo soporta IPv4. Básicamente, se encapsula el paquete IPv6 dentro de un paquete IPv4 para que pueda atravesar redes antiguas sin necesidad de actualizar todos los equipos intermedios.
 
-![](Tunelización.png)
+![](../IMG/MODULO12IMG/Tunelización.png)
 
 ---
 
 **3. Traducción** La traducción permite que los dispositivos que solo utilizan IPv6 se comuniquen con servidores o dispositivos que solo utilizan IPv4. Se utiliza un dispositivo (como un gateway o NAT64) para convertir los paquetes de un protocolo al otro, permitiendo la comunicación entre ambos mundos aunque sean técnicamente incompatibles.
 
-![](Traducción.png)
+![](../IMG/MODULO12IMG/Traducción.png)
 
 La tunelización y la traducción son exclusivamente mecanismos de transición para facilitar el despliegue hacia un entorno de IPv6 nativo, por lo que su implementación debe limitarse a casos donde sea estrictamente necesario, ya que el objetivo fundamental debe ser siempre establecer comunicaciones IPv6 nativas de extremo a extremo entre el origen y el destino.
 
@@ -42,7 +42,7 @@ Cada cuatro bits equivalen a un dígito hexadecimal, sumando un total de 32 valo
 
 **Segmentos o hextetos de 16 bits**
 
-![](Segmentos%20o%20hextetos%20de%2016%20bits.png)
+![](../IMG/MODULO12IMG/Segmentos%20o%20hextetos%20de%2016%20bits.png)
 
 
 ---
@@ -63,7 +63,7 @@ En IPv6 usamos el término no oficial **hexteto** para referirnos a cada segment
 
 Estos son ejemplos de direcciones IPv6 en el formato preferido.
 
-![](Formato%20preferido.png)
+![](../IMG/MODULO12IMG/Formato%20preferido.png)
 
 ---
 
