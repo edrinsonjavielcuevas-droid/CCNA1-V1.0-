@@ -17,7 +17,7 @@ La fiabilidad de TCP se basa en su capacidad para garantizar que los datos llegu
 
 **Los segmentos TCP se reordenan en el destino:**
 
-![](Los%20segmentos%20TCP%20se%20reordenan%20en%20el%20destino.png)
+![](../IMG/MODULO14IMG/Los%20segmentos%20TCP%20se%20reordenan%20en%20el%20destino.png)
 
 
 El proceso TCP receptor almacena los datos en un búfer, ordenándolos secuencialmente antes de entregarlos a la capa de aplicación.
@@ -38,7 +38,7 @@ TCP gestiona la pérdida de datos mediante un mecanismo de **retransmisión**. S
 
 Anteriormente, si se enviaban los segmentos del 1 al 10 y se perdían el 3 y el 4, el receptor solo podía pedir el número 3. El emisor, al no saber qué otros paquetes llegaron (del 5 al 10), tenía que **reenviar todo desde el 3 hasta el 10**. Esto provocaba duplicados innecesarios, desperdicio de ancho de banda y congestión en la red.
 
-![](retransmisión.png)
+![](../IMG/MODULO14IMG/retransmisión.png)
 
 El **SACK (Acuse de recibo selectivo)** optimiza la retransmisión de datos:
 
@@ -46,7 +46,7 @@ El **SACK (Acuse de recibo selectivo)** optimiza la retransmisión de datos:
 
 **Solución SACK:** El receptor informa al emisor qué paquetes llegaron exactamente (aunque haya huecos). Así, el emisor **solo reenvía lo que realmente falta**, evitando desperdiciar ancho de banda y reduciendo la congestión.
 
-![](SACK.png)
+![](../IMG/MODULO14IMG/SACK.png)
 
 **Acuses de recibo:** Por norma general, TCP envía un ACK por cada dos paquetes recibidos, aunque este comportamiento puede variar según condiciones de red externas.
 
@@ -70,7 +70,7 @@ En esencia, el tamaño de la ventana es el "acelerador" de la comunicación: el 
 
 **Ejemplo de tamaño de ventana**
 
-![](Ejemplo%20de%20tamaño%20de%20ventana.png)
+![](../IMG/MODULO14IMG/Ejemplo%20de%20tamaño%20de%20ventana.png)
 
 El **control de congestión** en TCP es el mecanismo que evita que la red se sature. A diferencia del control de flujo (que protege al receptor), este protege a toda la red:
 
@@ -91,9 +91,9 @@ Es la cantidad máxima de datos reales que un dispositivo puede recibir en un so
 
 **En resumen:** Mientras que el **tamaño de la ventana** controla _cuántos_ bytes se pueden enviar antes de una pausa, el **MSS** controla _qué tan grande_ puede ser cada paquete individual para que no sea fragmentado por la red. Ambos se negocian al inicio de la conexión durante el enlace de tres vías.
 
-![](Tamaño%20Máximo%20de%20Segmento.png)
+![](../IMG/MODULO14IMG/Tamaño%20Máximo%20de%20Segmento.png)
 
-![](MSS.png)
+![](../IMG/MODULO14IMG/MSS.png)
 
 ---
 
@@ -111,7 +111,7 @@ Para prevenir esto, TCP aplica el **control de congestión**:
 
 En resumen: el emisor "baja la velocidad" cuando detecta que la red no puede manejar el tráfico actual para evitar un colapso.
 
-![](Control%20de%20congestión%20TCP.png)
+![](../IMG/MODULO14IMG/Control%20de%20congestión%20TCP.png)
 
 ---
 
