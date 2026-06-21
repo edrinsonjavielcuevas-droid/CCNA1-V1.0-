@@ -24,7 +24,7 @@ UDP se define por su simplicidad y eficiencia, operando bajo un modelo de "mejor
 
 **Encabezado simple:** Es mucho más sencillo que el de TCP, ocupando solo 8 bytes (64 bits) distribuidos en cuatro campos.
 
-![697](Encabezado%20UDP.png)
+![697](../IMG/MODULO14IMG/Encabezado%20UDP.png)
 
 ---
 
@@ -32,7 +32,7 @@ UDP se define por su simplicidad y eficiencia, operando bajo un modelo de "mejor
 
 La siguiente table muestra la descripción de los campos de encabezado UDP.
 
-![](Campos%20de%20encabezado%20UDP.png)
+![](../IMG/MODULO14IMG/Campos%20de%20encabezado%20UDP.png)
 
 ---
 
@@ -50,7 +50,7 @@ UDP es el protocolo ideal para tres categorías de aplicaciones específicas don
 
 **Nota importante:** Aunque estos servicios usan UDP por defecto, pueden cambiar a **TCP** según el contexto. Por ejemplo, el **DNS** cambia a TCP si la respuesta excede los 512 bytes (muchos datos), y el **SNMP** puede configurarse para usar TCP si el administrador de red lo requiere por seguridad o fiabilidad.
 
-![](Aplicaciones%20óptimas%20para%20UDP.png)
+![](../IMG/MODULO14IMG/Aplicaciones%20óptimas%20para%20UDP.png)
 
 ---
 
