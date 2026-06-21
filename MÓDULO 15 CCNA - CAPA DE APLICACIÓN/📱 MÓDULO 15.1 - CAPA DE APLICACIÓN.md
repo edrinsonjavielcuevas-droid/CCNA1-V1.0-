@@ -21,7 +21,7 @@ La **capa de aplicación** es el nivel más cercano al usuario final en los mode
 
 Estos protocolos no son estáticos; están en constante evolución para adaptarse a las nuevas necesidades de comunicación. 
 
-![](CAPA%20DE%20APLICACIÓN.png)
+![](../IMG/MODULO14IMG/CAPA%20DE%20APLICACIÓN.png)
 
 ---
 
@@ -47,7 +47,7 @@ Actúa como un **gestor de diálogos** entre aplicaciones. Se encarga de:
 
 En pocas palabras: la **presentación** prepara el _mensaje_ (cómo se ve, qué tamaño tiene y si está cifrado), mientras que la **sesión** coordina la _conversación_ (cuánto dura y qué hacer si se corta).
 
-![](Capa%20de%20presentación%20y%20sección.png)
+![](../IMG/MODULO14IMG/Capa%20de%20presentación%20y%20sección.png)
 
 ---
 
@@ -63,22 +63,22 @@ Es esta compatibilidad la que permite que, por ejemplo, un navegador en tu dispo
 
 **Sistemas de nombres**
 
-![](Sistemas%20de%20nombres.png)
+![](../IMG/MODULO14IMG/Sistemas%20de%20nombres.png)
 
 **Configuración de host**
 
-![](Configuración%20de%20host.png)
+![](../IMG/MODULO14IMG/Configuración%20de%20host.png)
 
 **Correo electrónico**
 
-![](Correo%20electrónico.png)
+![](../IMG/MODULO14IMG/Correo%20electrónico.png)
 
 **Tranferencia de archivos**
 
-![](Tranferencia%20de%20archivos.png)
+![](../IMG/MODULO14IMG/Tranferencia%20de%20archivos.png)
 
 **La web**
 
-![](La%20web.png)
+![](../IMG/MODULO14IMG/La%20web.png)
 
 ---
