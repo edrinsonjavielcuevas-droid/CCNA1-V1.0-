@@ -11,6 +11,8 @@ Tanto TCP como UDP utilizan **números de puerto** para lograr la "multiplexión
 |---|---|---|
 |**Puerto de origen**|Identifica de forma exclusiva la aplicación o proceso específico dentro de tu host local.|Tu sistema operativo lo genera dinámicamente para cada nueva solicitud.|
 |**Puerto de destino**|Identifica el servicio específico que se solicita al servidor remoto.|Es un número estándar (conocido) que el servidor está escuchando (ej. puerto 80 para web).|
+
+
 ![](../IMG/MODULO14IMG/COMUNICACIONES%20MÚLTIPLES%20SEPARADAS.png)
 
 ---
