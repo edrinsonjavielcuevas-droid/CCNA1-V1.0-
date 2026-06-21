@@ -25,13 +25,14 @@ Cuando un host o gateway no puede entregar un paquete, genera un mensaje ICMP de
 
 **Códigos de Destino Inalcanzable**
 
-| **Código** | **ICMPv4 (Motivo)**    | **ICMPv6 (Motivo)**                            |
-| ---------- | ---------------------- | ---------------------------------------------- |
-| **0**      | Red inalcanzable       | No hay ruta para el destino                    |
-| **1**      | Host inalcanzable      | Prohibido administrativamente (ej. Firewall)   |
-| **2**      | Protocolo inalcanzable | Más allá del alcance de la dirección de origen |
-| **3**      | Puerto inalcanzable    | No se puede alcanzar la dirección              |
-| **4**      | —                      | Puerto inalcanzable                            |
+| **Código**          | **ICMPv4 (Motivo)**             | **ICMPv6 (Motivo)**                                            |
+| ----------          | ----------------------          | ----------------------------------------------                 |
+| **0**               | Red inalcanzable                | No hay ruta para el destino                                    |
+| **1**               | Host inalcanzable               | Prohibido administrativamente (ej. Firewall)                   |
+| **2**               | Protocolo inalcanzable          | Más allá del alcance de la dirección de origen                 |
+| **3**               | Puerto inalcanzable             | No se puede alcanzar la dirección                              |
+| **4**               | —                               | Puerto inalcanzable                                            |
+
 
 **Nota:** ICMPv6 tiene códigos similares pero ligeramente diferentes para los mensajes de destino inalcanzable.
 
@@ -51,12 +52,12 @@ ICMPv6 introduce mejoras funcionales sobre ICMPv4, encapsulándose directamente 
 
 **Mensajes del Protocolo de Detección de Vecinos (NDP)**
 
-| **Tipo de Mensaje**          | **Función Principal**                                                                              | **Comunicación**          |
-| ---------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------- |
-| **Solicitud de Router (RS)** | El host solicita información de direccionamiento al router.                                        | Host a Router             |
-| **Anuncio de Router (RA)**   | El router responde periódicamente (cada 200s) o ante un RS con el prefijo, DNS y puerta de enlace. | Router a Host             |
-| **Solicitud de Vecino (NS)** | Un dispositivo verifica la accesibilidad o busca la dirección MAC de otro vecino en el enlace.     | Dispositivo a Dispositivo |
-| **Anuncio de Vecino (NA)**   | Respuesta a un mensaje NS para confirmar la disponibilidad o indicar la dirección MAC propia.      | Dispositivo a Dispositivo |
+| **Tipo de Mensaje**                        | **Función Principal**                                                                                         | **Comunicación**          |
+| ----------------------------               | --------------------------------------------------------------------------------------------------            | ------------------------- |
+| **Solicitud de Router (RS)**               | El host solicita información de direccionamiento al router.                                                   | Host a Router             |
+| **Anuncio de Router (RA)**                 | El router responde periódicamente (cada 200s) o ante un RS con el prefijo, DNS y puerta de enlace.            | Router a Host             |
+| **Solicitud de Vecino (NS)**               | Un dispositivo verifica la accesibilidad o busca la dirección MAC de otro vecino en el enlace.                | Dispositivo a Dispositivo |
+| **Anuncio de Vecino (NA)**                 | Respuesta a un mensaje NS para confirmar la disponibilidad o indicar la dirección MAC propia.                 | Dispositivo a Dispositivo |
 
 **Nota:** Adicionalmente, el NDP de ICMPv6 incluye un mensaje de redireccionamiento, el cual cumple una función similar a la del protocolo en ICMPv4.
 
