@@ -9,7 +9,7 @@ UDP destaca por su eficiencia y velocidad gracias a dos factores clave:
 
 En esencia, UDP sacrifica la confiabilidad y el control de TCP para lograr una transferencia de datos directa, ligera y casi instantánea.
 
-![](COMUNICACIÓN%20UDP.png)
+![](../IMG/MODULO14IMG/COMUNICACIÓN%20UDP.png)
 
 ---
 
@@ -23,7 +23,7 @@ A diferencia de TCP, UDP prioriza la velocidad sobre el orden y la integridad:
 
 **UDP: sin conexión y poco confiable**
 
-![](UDP%20sin%20conexión%20y%20poco%20confiable.png)
+![](../IMG/MODULO14IMG/UDP%20sin%20conexión%20y%20poco%20confiable.png)
 
 
 ---
@@ -41,7 +41,7 @@ En los servidores basados en UDP, el funcionamiento es similar al de TCP en cuan
 
 **Servidor UDP a la escucha de solicitudes**
 
-![](Servidor%20UDP%20a%20la%20escucha%20de%20solicitudes.png)
+![](../IMG/MODULO14IMG/Servidor%20UDP%20a%20la%20escucha%20de%20solicitudes.png)
 
 ---
 
@@ -57,23 +57,23 @@ Al igual que en TCP, la comunicación UDP inicia cuando un cliente solicita dato
 
 ---
 
-![](Clientes%20que%20envían%20solicitudes%20UDP.png)
+![](../IMG/MODULO14IMG/Clientes%20que%20envían%20solicitudes%20UDP.png)
 
 ---
 
-![](Puertos%20de%20destino%20de%20solicitud%20UDP.png)
+![](../IMG/MODULO14IMG/Puertos%20de%20destino%20de%20solicitud%20UDP.png)
 
 ---
 
-![](Puertos%20de%20origen%20de%20solicitud%20UDP.png)
+![](../IMG/MODULO14IMG/Puertos%20de%20origen%20de%20solicitud%20UDP.png)
 
 ---
 
-![](Puertos%20de%20origen%20de%20respuesta%20UDP.png)
+![](../IMG/MODULO14IMG/Puertos%20de%20origen%20de%20respuesta%20UDP.png)
 
 ---
 
-![](Destino%20de%20respuesta%20UDP.png)
+![](../IMG/MODULO14IMG/Destino%20de%20respuesta%20UDP.png)
 
 ---
 
