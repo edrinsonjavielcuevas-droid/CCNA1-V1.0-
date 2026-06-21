@@ -19,7 +19,7 @@ A diferencia de otros protocolos que utilizan un solo canal, FTP utiliza **dos c
 
 **Bidireccionalidad:** El cliente tiene la capacidad tanto de **descargar** (extraer) archivos desde el servidor, como de **subir** (insertar) sus propios archivos hacia el servidor.
 
-![](Detalles%20importantes.png)
+![](../IMG/MODULO14IMG/Detalles%20importantes.png)
 
 ----
 
@@ -49,9 +49,9 @@ A diferencia de FTP, que establece conexiones temporales, **SMB crea una conexi�
 
 **Apple:** Los sistemas Macintosh también admiten el acceso a recursos compartidos mediante este protocolo.
 
-![](SMB.png)
+![](../IMG/MODULO14IMG/SMB.png)
 
-![](Características%20y%20Evolución.png)
+![](../IMG/MODULO14IMG/Características%20y%20Evolución.png)
 
 ----
 
