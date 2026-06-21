@@ -17,19 +17,19 @@ Un servidor asigna un número de puerto único a cada proceso de aplicación par
 
 **Clientes envían solicitudes TCP**
 
-![](Clientes%20envían%20solicitudes%20TCP.png)
+![](../IMG/MODULO14IMG/Clientes%20envían%20solicitudes%20TCP.png)
 
 ---
 
 **Solicitud de puertos de destino**
 
-![](Solicitud%20de%20puertos%20de%20destino.png)
+![](../IMG/MODULO14IMG/Solicitud%20de%20puertos%20de%20destino.png)
 
 ---
 
 **Terminar sección TCP**
 
-![](Terminar%20sección%20TCP.png)
+![](../IMG/MODULO14IMG/Terminar%20sección%20TCP.png)
 
 
 ---
@@ -62,7 +62,7 @@ Son indicadores en el encabezado TCP que dictan el estado y el flujo de la conex
 
 **Campos de bits de control**
 
-![](Campos%20de%20bits%20de%20control.png)
+![](../IMG/MODULO14IMG/Campos%20de%20bits%20de%20control.png)
 
 
 ---
