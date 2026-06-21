@@ -23,7 +23,7 @@ El modelo cliente-servidor es la arquitectura fundamental que permite el funcion
 
 Un ejemplo claro es el **correo electrónico**: cuando tu PC solicita correos nuevos, actúa como cliente enviando la petición al servidor de tu ISP. El servidor procesa la solicitud, busca tus mensajes y te los envía (descarga) para que los leas.
 
-![](Cliente%20-%20servidor.png)
+![](../IMG/MODULO14IMG/Cliente%20-%20servidor.png)
 
 ---
 
@@ -32,7 +32,7 @@ Un ejemplo claro es el **correo electrónico**: cuando tu PC solicita correos nu
 En el modelo de red entre pares (P2P), los dispositivos acceden a datos y recursos, como archivos o impresoras, sin depender de un servidor dedicado. En esta arquitectura, cualquier terminal conectado puede funcionar simultáneamente tanto como cliente como servidor, estableciendo su función según la solicitud específica de la transacción. Además de compartir recursos físicos o datos, este modelo permite a los usuarios realizar otras actividades como jugar en red o compartir una conexión a Internet, donde cada dispositivo se considera igual en el proceso de comunicación.
 
 
-![](Redes%20entre%20pares.png)
+![](../IMG/MODULO14IMG/Redes%20entre%20pares.png)
 
 ---
 ### Peer to peer applications:
@@ -45,7 +45,7 @@ Existen principalmente dos formas en las que operan:
 
 **Híbrida:** Combina la descentralización del intercambio de archivos con un **directorio centralizado** (servidor de índice). En este modelo, los dispositivos consultan primero a este servidor para localizar dónde está almacenado un recurso específico y luego realizan la transferencia directamente entre sí.
 
-![](Peer%20to%20peer%20applications.png)
+![](../IMG/MODULO14IMG/Peer%20to%20peer%20applications.png)
 
 ---
 
@@ -75,7 +75,7 @@ Varios clientes populares utilizan este protocolo para conectar a los usuarios c
 
 **eMule** (evolución del protocolo eDonkey).
 
-![](Aplicaciones%20P2P%20comunes.png)
+![](../IMG/MODULO14IMG/Aplicaciones%20P2P%20comunes.png)
 
 ----
 
