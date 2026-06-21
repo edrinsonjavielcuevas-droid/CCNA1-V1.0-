@@ -29,7 +29,7 @@ Hacer _ping_ a la dirección de **loopback** (bucle de retorno) es la primera pr
 > **Nota crítica:** Si recibes un mensaje de error al hacer _ping_ a estas direcciones, significa que la pila TCP/IP está dañada o no está correctamente instalada en el sistema operativo.
 
 
-![](Loopback.png)
+![](../IMG/MODULO13IMG/Loopback.png)
 
 ---
 
@@ -53,7 +53,7 @@ Hacer _ping_ a la **puerta de enlace predeterminada** (_default gateway_) es el 
 
 **Nota técnica:** Un fallo en el _ping_ al gateway no siempre significa que la red esté caída; a menudo, se debe a una dirección de puerta de enlace configurada incorrectamente en el host o a reglas de seguridad en el router que descartan las solicitudes de eco para evitar el descubrimiento de red.
 
-![](Hacer%20ping%20al%20gateway%20predeterminado.png)
+![](../IMG/MODULO13IMG/Hacer%20ping%20al%20gateway%20predeterminado.png)
 
 ---
 
@@ -75,7 +75,7 @@ La funcionalidad del dispositivo de destino.
 
 > **Nota:** La falta de respuesta en un _ping_ remoto no siempre indica una falla en la red; es una práctica común en entornos corporativos limitar o prohibir los mensajes ICMP mediante firewalls por razones de seguridad.
 
-![](Hacer%20ping%20a%20un%20host%20remoto.png)
+![](../IMG/MODULO13IMG/Hacer%20ping%20a%20un%20host%20remoto.png)
 
 ---
 
