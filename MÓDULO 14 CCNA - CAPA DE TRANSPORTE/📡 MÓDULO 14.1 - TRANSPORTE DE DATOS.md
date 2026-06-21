@@ -5,7 +5,7 @@
 
 La capa de transporte actúa como el enlace esencial entre las aplicaciones y la red subyacente, encargándose de gestionar las comunicaciones lógicas y las sesiones temporales entre programas que se ejecutan en diferentes hosts. Opera de forma abstracta, enfocándose exclusivamente en la entrega de datos sin involucrarse en detalles técnicos como la ruta, el tipo de medio o la congestión de la red, y cumple esta misión apoyándose en dos protocolos fundamentales: **TCP** (Protocolo de Control de Transmisión) y **UDP** (Protocolo de Datagramas de Usuario).
 
-![](Función%20de%20la%20capa%20de%20transporte.png)
+![](../IMG/MODULO14IMG/Función%20de%20la%20capa%20de%20transporte.png)
 
 ----
 ### Responsabilidades de la Capa de Transporte
@@ -23,7 +23,7 @@ La capa de transporte actúa como el enlace esencial entre las aplicaciones y la
 
 Mientras que el protocolo IP se encarga exclusivamente del direccionamiento y enrutamiento de los paquetes, la **capa de transporte** es la responsable de definir cómo se entregan realmente esos mensajes entre los dispositivos. Dado que cada aplicación tiene diferentes necesidades de fiabilidad en su comunicación, esta capa ofrece dos protocolos principales, **TCP y UDP**, para administrar y adaptar adecuadamente el transporte de los datos según los requisitos específicos de cada conversación.
 
-![](Protocolos%20de%20capa%20de%20transporte.png)
+![](../IMG/MODULO14IMG/Protocolos%20de%20capa%20de%20transporte.png)
 
 ---
 
@@ -52,7 +52,7 @@ A diferencia del protocolo IP (que solo se encarga de enrutar los paquetes sin i
 
 **Controlar la velocidad:** Regula el ritmo de envío para que los datos viajen a una velocidad eficiente y aceptable, evitando saturar al equipo receptor.
 
-![680](TCP.png)
+![680](../IMG/MODULO14IMG/TCP.png)
 
 ---
 
@@ -73,7 +73,7 @@ A diferencia de TCP, **UDP es un protocolo mucho más simple y rápido**, diseñ
 
 > **La analogía perfecta:** Usar UDP es como enviar una **carta regular y sin registrar por correo**. Simplemente la echas al buzón; no sabes si el destinatario está disponible, no tienes un número de rastreo, y la oficina de correos no se hace responsable de avisarte si la carta nunca llegó a su destino.
 
-![](UDP.png)
+![](../IMG/MODULO14IMG/UDP.png)
 
 ---
 
@@ -99,7 +99,7 @@ Excepción de Firewall: Las videoconferencias intentan usar UDP por defecto, per
 
 **Web, Correo y Datos Financieros (TCP):** Aquí la confiabilidad lo es todo. Si falta un solo paquete de datos al cargar tu estado de cuenta bancario, la información sería ilegible o corrupta. TCP garantiza que todo llegue en su formato original.
 
-![](Apps%20especifícas%20para%20el%20tcp%20y%20udp.png)
+![](../IMG/MODULO14IMG/Apps%20especifícas%20para%20el%20tcp%20y%20udp.png)
 
 ----
 
