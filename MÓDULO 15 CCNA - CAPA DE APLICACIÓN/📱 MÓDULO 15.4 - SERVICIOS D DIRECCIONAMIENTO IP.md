@@ -107,7 +107,7 @@ Los dispositivos utilizan servidores DNS (generalmente asignados por el ISP) par
 
 **Funcionamiento:** Al ejecutar el comando, te muestra primero cuál es tu servidor DNS predeterminado. Luego, te da un _prompt_ donde puedes escribir cualquier dominio para realizar pruebas exhaustivas de la resolución DNS.
 
-![](nslookup.png)
+![](../IMG/MODULO14IMG/nslookup.png)
 
 ---
 
@@ -137,7 +137,7 @@ La mayoría de las redes utilizan una combinación inteligente de ambos métodos
 
 DHCPv6 ofrece servicios muy similares para redes modernas, pero con una **diferencia técnica importante**: DHCPv6 **no** entrega la dirección del gateway predeterminado. En IPv6, los dispositivos obtienen esa dirección específica escuchando los anuncios dinámicos que emite el propio router.
 
-![](Protocolo%20de%20configuración%20dinámica%20de%20host%20(DHCP).png)
+![](../IMG/MODULO14IMG/Protocolo%20de%20configuración%20dinámica%20de%20host%20(DHCP).png)
 
 ---
 
@@ -178,7 +178,7 @@ Aunque el proceso es conceptualmente similar para IPv6, los nombres de los mensa
 
 ---
 
-![697](Funcionamiento%20de%20DHCP.png)
+![697](../IMG/MODULO14IMG/Funcionamiento%20de%20DHCP.png)
 
 ---
 
