@@ -15,7 +15,7 @@ El protocolo **ICMP** (Internet Control Message Protocol) es la herramienta fund
 
 La accesibilidad de un host en una red IP se puede verificar mediante el uso de mensajes de eco ICMP. En este proceso, el host local envía una solicitud de eco ICMP a un dispositivo de destino, el cual responde con una respuesta de eco si se encuentra disponible. Este intercambio de mensajes de eco ICMP constituye la base técnica de la utilidad conocida como **ping**.
 
-![](Accesibilidad%20al%20host.png)
+![](../IMG/MODULO13IMG/Accesibilidad%20al%20host.png)
 
 ---
 
