@@ -11,7 +11,7 @@ Tanto TCP como UDP utilizan **números de puerto** para lograr la "multiplexión
 |---|---|---|
 |**Puerto de origen**|Identifica de forma exclusiva la aplicación o proceso específico dentro de tu host local.|Tu sistema operativo lo genera dinámicamente para cada nueva solicitud.|
 |**Puerto de destino**|Identifica el servicio específico que se solicita al servidor remoto.|Es un número estándar (conocido) que el servidor está escuchando (ej. puerto 80 para web).|
-![](COMUNICACIONES%20MÚLTIPLES%20SEPARADAS.png)
+![](../IMG/MODULO14IMG/COMUNICACIONES%20MÚLTIPLES%20SEPARADAS.png)
 
 ---
 ### Ejemplo Práctico: Navegación Web
@@ -42,7 +42,7 @@ Los números de puerto están organizados en grupos específicos por la IANA (In
 
 **Multiplexión:** Esta división es lo que permite que tu computadora maneje múltiples conexiones simultáneas sin que la información de una aplicación interfiera con otra.
 
-![](PARES%20DE%20SOCKETS.png)
+![](../IMG/MODULO14IMG/PARES%20DE%20SOCKETS.png)
 
 Un **socket** es simplemente la unión de una **dirección IP** y un **número de puerto**. Su función es identificar de manera única una aplicación específica dentro de una computadora.
 
@@ -60,7 +60,7 @@ Imagina que tu PC (IP `192.168.1.5`) quiere descargar un archivo (FTP) y ver una
 ---
 ### Puertos conocidos
 
-![](Puertos%20conocidos.png)
+![](../IMG/MODULO14IMG/Puertos%20conocidos.png)
 
 ---
 
@@ -79,7 +79,7 @@ El comando **`netstat`** es una utilidad de red esencial para la seguridad, que 
 
 Por defecto, intenta resolver nombres de dominio y puertos. Usando la opción **`-n`**, muestra los resultados en formato numérico (IPs y puertos), lo cual es ideal para un diagnóstico más preciso.
 
-![](EL%20COMANDO%20NETSTAT.png)
+![](../IMG/MODULO14IMG/EL%20COMANDO%20NETSTAT.png)
 
 Las variables (opciones) más útiles para el comando **netstat** son:
 
