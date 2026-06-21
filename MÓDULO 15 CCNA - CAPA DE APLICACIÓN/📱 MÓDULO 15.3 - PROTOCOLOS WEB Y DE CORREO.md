@@ -11,9 +11,9 @@ El funcionamiento de la navegación web se basa en un proceso de comunicación e
 
 **Interacción cliente-servidor**: Este protocolo es lo que permite que tu navegador dialogue con el servidor, logrando que la página web se cargue y se muestre en tu pantalla.
 
-![](HTTP.png)
+![](../IMG/MODULO14IMG/HTTP.png)
 
-![697](MTP.png)
+![697](../IMG/MODULO14IMG/MTP.png)
 
 ---
 
@@ -41,7 +41,7 @@ Aquí entra **HTTPS** (HTTP Seguro) para resolver este problema:
 
 **Funcionamiento**: Sigue el mismo proceso de solicitud-respuesta de HTTP, pero añade una capa de seguridad mediante **SSL (Capa de Sockets Seguros)**. Esta capa cifra todo el flujo de datos antes de que sea transportado a través de la red, garantizando la privacidad de la comunicación.
 
-![](HTTP%20vs%20HTTPS.png)
+![](../IMG/MODULO14IMG/HTTP%20vs%20HTTPS.png)
 
 ---
 
@@ -59,19 +59,19 @@ Para que este sistema funcione, se utilizan tres protocolos distintos en la capa
 
 **SMTP (Protocolo Simple de Transferencia de Correo):** Es el protocolo utilizado **exclusivamente para enviar** correos electrónicos desde el cliente hacia el servidor, o entre servidores de correo.
 
-![](SMTP.png)
+![](../IMG/MODULO14IMG/SMTP.png)
 
 **POP (Protocolo de Oficina de Correos):** Se utiliza para **recuperar** mensajes. Por lo general, descarga el correo del servidor al dispositivo local y, a menudo, lo borra del servidor tras la descarga.
 
-![](POP.png)
+![](../IMG/MODULO14IMG/POP.png)
 
 **IMAP (Protocolo de Acceso a Mensajes de Internet):** También se utiliza para **recuperar** mensajes, pero de forma más avanzada. Mantiene el correo sincronizado en el servidor, permitiendo acceder a los mensajes desde múltiples dispositivos sin borrarlos automáticamente.
 
-![](imap.png)
+![](../IMG/MODULO14IMG/imap.png)
 
 ---
 
-![](Protocolos%20de%20correo%20electrónico.png)
+![](../IMG/MODULO14IMG/Protocolos%20de%20correo%20electrónico.png)
 
 ---
 
