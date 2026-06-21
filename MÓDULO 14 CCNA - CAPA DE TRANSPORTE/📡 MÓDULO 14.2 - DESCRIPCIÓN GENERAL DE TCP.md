@@ -18,7 +18,7 @@
 
 TCP es un protocolo "con estado" porque gestiona meticulosamente cada sesión de comunicación desde su inicio hasta su finalización, manteniendo un registro constante de los datos enviados y recibidos para garantizar su integridad. Para lograr esto, cada segmento TCP añade una sobrecarga técnica de **20 bytes (160 bits)** de información de control en su encabezado, la cual es indispensable para realizar el seguimiento, la secuenciación y la confirmación de la entrega de datos.
 
-![](Encabezado%20TCP.png)
+![](../IMG/MODULO14IMG/Encabezado%20TCP.png)
 
 ---
 
@@ -26,7 +26,7 @@ TCP es un protocolo "con estado" porque gestiona meticulosamente cada sesión de
 
 La siguiente tabla identifica y describe los 10 campos de un encabezado TCP.
 
-![](Campos%20del%20encabezado%20TCP.png)
+![](../IMG/MODULO14IMG/Campos%20del%20encabezado%20TCP.png)
 
 ---
 
@@ -34,7 +34,7 @@ La siguiente tabla identifica y describe los 10 campos de un encabezado TCP.
 
 TCP es el ejemplo perfecto de la división de tareas en la arquitectura TCP/IP. Al delegar todas las funciones complejas de transporte (segmentación, control de flujo, reordenamiento y garantía de fiabilidad) a la capa de transporte, **TCP libera a las aplicaciones de gestionar estos procesos técnicos**. Esto permite que programas como los navegadores web, clientes de correo o bases de datos simplemente entreguen sus datos a la capa de transporte y confíen en que llegarán íntegros a su destino.
 
-![](Aplicaciones%20que%20utilizan%20TCP.png)
+![](../IMG/MODULO14IMG/Aplicaciones%20que%20utilizan%20TCP.png)
 
 ----
 
