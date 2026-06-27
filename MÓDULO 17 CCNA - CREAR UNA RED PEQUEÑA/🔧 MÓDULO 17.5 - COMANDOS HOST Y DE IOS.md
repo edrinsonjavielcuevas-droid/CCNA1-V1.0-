@@ -16,19 +16,19 @@ En Windows, la ruta para acceder a esta información de manera gráfica es: **Ne
 
 Sin embargo, los administradores de red suelen ver la información de direcciones IP en un host de Windows ejecutando el comando**ipconfig** en la línea de comandos de un equipo con Windows, como se muestra en el ejemplo.
 
-![](ipconfig.png)
+![](../IMG/MODULO17IMG/ipconfig.png)
 
 Utilice el comando **ipconfig /all** para ver la dirección MAC junto con varios detalles relacionados con la asignación de direcciones de capa 3 del dispositivo, Como se muestra en el ejemplo.
 
-![](ipconfigall.png)
+![](../IMG/MODULO17IMG/ipconfigall.png)
 
 Si un host está configurado como cliente DHCP, la configuración de la dirección IP se puede renovar utilizando los comandos **ipconfig /release** **ipconfig /renew** y, como se muestra en el resultado de ejemplo.
 
-![](release.png)
+![](../IMG/MODULO17IMG/release.png)
 
 El servicio del cliente DNS en PC con Windows también optimiza el rendimiento de la resolución de nombres DNS al almacenar en la memoria los nombres resueltos previamente. El comando **ipconfig /displaydns** muestra todas las entradas DNS en caché en un sistema de computación Windows., como se muestra en el ejemplo.
 
-![](displaydns.png)
+![](../IMG/MODULO17IMG/displaydns.png)
 
 ---
 
@@ -36,11 +36,11 @@ El servicio del cliente DNS en PC con Windows también optimiza el rendimiento d
 
 La verificación de la configuración IP usando la GUI en una máquina Linux variará dependiendo de la distribución Linux (distribución) y la interfaz de escritorio. La figura muestra el **Connection Information** cuadro de diálogo en la distribución Ubuntu que ejecuta el escritorio Gnome.
 
-![697](COnfig%20ip%20en%20host%20linux.png)
+![697](../IMG/MODULO17IMG/COnfig%20ip%20en%20host%20linux.png)
 
 En la línea de comandos, los administradores de red utilizan el comando **ifconfig** para mostrar el estado de las interfaces activas actualmente y su configuración IP, como se muestra en la salida.
 
-![](ifconfig.png)
+![](../IMG/MODULO17IMG/ifconfig.png)
 
 El comando **ip address** se utiliza para mostrar direcciones y sus propiedades. También se puede usar para agregar o eliminar direcciones IP.
 
@@ -52,15 +52,15 @@ El comando **ip address** se utiliza para mostrar direcciones y sus propiedade
 
 En la GUI de un host Mac, abra **Network Preferences > Advanced** para obtener la información de direccionamiento IP, como se muestra en la figura.
 
-![](IP%20en%20un%20IOS.png)
+![](../IMG/MODULO17IMG/IP%20en%20un%20IOS.png)
 
 Sin embargo, el comando **ifconfig** también se puede utilizar para verificar la configuración IP de la interfaz, como se muestra en el ejemplo.
 
-![](IFCONFIG%20EN%20MAC.png)
+![](../IMG/MODULO17IMG/IFCONFIG%20EN%20MAC.png)
 
 Otros comandos útiles de macOS para verificar la configuración IP del host incluyen **networksetup -listallnetworkservices** y el **networksetup -getinfo <**_network service_**>,** como se muestra en el siguiente resultado.
 
-![](OTROS%20COMANDAS.png)
+![](../IMG/MODULO17IMG/OTROS%20COMANDAS.png)
 
 ---
 
@@ -70,11 +70,11 @@ El comando **arp** se ejecuta desde el símbolo del sistema de Windows, Linux 
 
 Por ejemplo, consulte la topología en la figura
 
-![](Comando%20arp.png)
+![](../IMG/MODULO17IMG/Comando%20arp.png)
 
 Se muestra la salida del comando **arp -a** en el host PC-A de Windows.
 
-![](Salida%20arp.png)
+![](../IMG/MODULO17IMG/Salida%20arp.png)
 
 El comando **ARP** (Address Resolution Protocol) es fundamental para mapear direcciones IP a direcciones MAC en una red local. Aquí tienes la gestión de la tabla ARP resumida:
 
@@ -116,7 +116,7 @@ Este comando es esencial para el reconocimiento de topología. Por cada vecino c
 |**Lista de capacidades**|Si es un switch, un router, etc.|
 |**Plataforma**|El modelo de hardware (ej. Cisco serie 1841).|
 
-![](show%20cpd%20neighbors.png)
+![](../IMG/MODULO17IMG/show%20cpd%20neighbors.png)
 
 Observa que R3 solo ve a S3. Esto ocurre porque CDP es un protocolo de **vecinos directamente conectados**; no es capaz de ver dispositivos "detrás" de sus vecinos (como S4).
 
