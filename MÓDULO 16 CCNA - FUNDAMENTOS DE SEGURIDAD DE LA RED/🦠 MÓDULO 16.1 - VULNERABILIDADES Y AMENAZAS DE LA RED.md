@@ -6,7 +6,7 @@ Los **actores de amenazas** (atacantes) explotan vulnerabilidades de software, h
 
 **Robo de información:** Consiste en el acceso no autorizado a datos confidenciales o patentados (ej. bases de datos de clientes, información financiera, propiedad intelectual) con el fin de exfiltrarlos, leerlos, copiarlos o venderlos. Afecta directamente la **confidencialidad**.
 
-![](Robo%20de%20información.png)
+![](../IMG/MODULO16IMG/Robo%20de%20información.png)
 
 ---
 
