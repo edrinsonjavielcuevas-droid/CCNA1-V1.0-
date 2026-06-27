@@ -40,22 +40,22 @@ La teoría clasifica estos ataques en **cuatro tipos principales**:
 
 **Ataques de contraseña:** Intentos de descubrir, adivinar o robar las credenciales de inicio de sesión de un usuario legítimo (usualmente mediante fuerza bruta, diccionarios o ingeniería social).
 
-![697](Ataques%20de%20contresena.png)
+![697](../IMG/MODULO16IMG/Ataques%20de%20contresena.png)
 
 **Explotación de confianza:** Aprovechar los privilegios de un dispositivo o cuenta ya comprometida para acceder a otros sistemas dentro de la red que confían en ese origen.
 
-![](Explotacion%20de%20canfianza.png)
+![](../IMG/MODULO16IMG/Explotacion%20de%20canfianza.png)
 
 
 
 **Redirección de puertos:** Utilizar un host comprometido como "puente" o intermediario para evadir un firewall y dirigir tráfico malicioso a un objetivo interno.
 
-![](Reconocimiento%20de%20puertos.png)
+![](../IMG/MODULO16IMG/Reconocimiento%20de%20puertos.png)
 
 
 **Man-in-the-middle (MitM):** El atacante se posiciona secretamente entre dos partes legítimas que se comunican, interceptando, leyendo y posiblemente alterando los datos en tránsito.
 
-![](Man%20in%20the%20middle.png)
+![](../IMG/MODULO16IMG/Man%20in%20the%20middle.png)
 
 ---
 
@@ -67,5 +67,5 @@ Los ataques de denegación de servicio son de los más comunes, perjudiciales y 
 
 **Ataque DDoS (Distributed Denial of Service):** El ataque se origina desde **múltiples fuentes simultáneas**. El atacante suele utilizar una _Botnet_ (una red de cientos o miles de dispositivos previamente infectados con malware, conocidos como "zombis"). El atacante (a través de un servidor de Comando y Control) ordena a todos los zombis que envíen tráfico al objetivo al mismo tiempo. Es exponencialmente más devastador y difícil de detener, ya que no puedes simplemente bloquear una única IP.
 
-![](Ataques%20DoS%20ó%20Ataque%20DDoS.png)
+![](../IMG/MODULO16IMG/Ataques%20DoS%20ó%20Ataque%20DDoS.png)
 
