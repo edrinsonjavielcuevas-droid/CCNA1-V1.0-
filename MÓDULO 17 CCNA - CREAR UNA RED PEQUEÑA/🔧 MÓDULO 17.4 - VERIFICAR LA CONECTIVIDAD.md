@@ -19,25 +19,25 @@ El comando `ping` es la herramienta fundamental para verificar la conectividad d
 
 Permite comprobar rápidamente si existe un camino válido entre una IP de origen y una de destino, midiendo además estadísticas de **RTT** (_Round Trip Time_ o tiempo de ida y vuelta). Está disponible universalmente en sistemas operativos como Windows, Linux, macOS y Cisco IOS.
 
-![](01_CCNA/IMG/MODULO17IMG/Ping.png)
+![](../IMG/MODULO17IMG/Ping.png)
 
-![](PPing1.png)
+![](../IMG/MODULO17IMG/PPing1.png)
 
 Como se muestra en el resultado del comando, PC A ha recibido respuestas de echo de PC-B verificando la conexión de red de Capa 3.
 
-![](PC%20'A.png)
+![](../IMG/MODULO17IMG/PC%20'A.png)
 
 La salida confirma la conectividad de Capa 3 entre el PC A y el PC B.
 
 La salida de un comando **ping** del IOS de Cisco varía de un host de Windows. Por ejemplo, el ping de IOS envía cinco mensajes de eco ICMP, como se muestra en la salida.
 
-![](PING%201.png)
+![](../IMG/MODULO17IMG/PING%201.png)
 
 Observe los **!!!!!** caracteres en el resultado. El comando IOS **ping** muestra un indicador para cada respuesta de echo ICMP recibida. En la siguiente tabla se enumeran los posibles caracteres del comando **ping:**
 
 ### Indicadores de ping IOS
 
-![](Indicador%20de%20ping%20IOS.png)
+![](../IMG/MODULO17IMG/Indicador%20de%20ping%20IOS.png)
 
 **Nota:** Otras posibles respuestas de ping incluyen Q, M,?, o &. Sin embargo, el significado de estos están fuera de alcance para este módulo.
 
@@ -47,17 +47,17 @@ Observe los **!!!!!** caracteres en el resultado. El comando IOS **ping** mu
 
 Un estándar **ping** utiliza la dirección IP de la interfaz más cercana a la red de destino como origen de **ping**. La dirección IP de origen del comando**ping 10.1.1.10** en R1 sería la de la interfaz G0/0/0 (209.165.200.225), como se ilustra en el ejemplo.
 
-![](PIng%20extendido.png)
+![](../IMG/MODULO17IMG/PIng%20extendido.png)
 
 Cisco IOS ofrece un modo "extendido" del comando ping, el cual permite ajustar parámetros para crear pings personalizados. Este modo se accede en modo EXEC privilegiado escribiendo "ping" sin una dirección IP de destino, tras lo cual se presentarán indicaciones para personalizar el comando. Al presionar Enter, se aceptan los valores predeterminados.
 
 Un ping extendido es útil, por ejemplo, para probar la conectividad entre redes específicas (como la LAN R1 192.168.10.0/24 y la LAN 10.1.1.0) permitiendo especificar una dirección IP de origen distinta, como la de una interfaz específica (ejemplo: G0/0/1 con IP 192.168.10.1).
 
-![](Ping%20ex.png)
+![](../IMG/MODULO17IMG/Ping%20ex.png)
 
 El siguiente resultado del comando configura un **ping** extendido en R1 y especifica que la dirección IP de origen sea la de la interfaz G0/0/1 (es decir, 192.168.10.1).
 
-![](ping%20en%20consola.png)
+![](../IMG/MODULO17IMG/ping%20en%20consola.png)
 
 **Nota:** El comando **ping ipv6** se utiliza para pings IPv6 extendidos.
 
