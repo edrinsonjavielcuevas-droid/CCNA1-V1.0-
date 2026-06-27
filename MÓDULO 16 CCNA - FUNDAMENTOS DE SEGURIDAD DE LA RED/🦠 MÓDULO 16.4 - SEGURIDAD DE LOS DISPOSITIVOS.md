@@ -68,7 +68,7 @@ Crear una contraseña compleja es solo el primer paso; el segundo es protegerla 
 | **Bloqueo**  | `login block-for [s] attempts [n] within [s]` | Bloquea el acceso tras `n` intentos fallidos. |
 | **Timeout**  | `exec-timeout [min] [seg]`                    | Cierra sesiones inactivas automáticamente.    |
 
-![](Seguridad%20adicional.png)
+![](../IMG/MODULO16IMG/Seguridad%20adicional.png)
 
 ---
 
@@ -87,7 +87,7 @@ Crear una contraseña compleja es solo el primer paso; el segundo es protegerla 
 | **5. Autenticar**    | `line vty 0 4`<br><br>  <br><br>`login local` | Entrar a las líneas virtuales y exigir el usuario local para acceder.   |
 | **6. Forzar SSH**    | `transport input ssh`                         | Bloquear Telnet y permitir **solo** conexiones SSH entrantes.           |
 
-![](Habilitar%20SSH.png)
+![](../IMG/MODULO16IMG/Habilitar%20SSH.png)
 
 ---
 ### Inhabilitación de Servicios no Utilizados 
