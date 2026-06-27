@@ -1,7 +1,7 @@
 
 ---
 
-![](../IMG/MODULO17IMG/01_CCNA/IMG/MODULO17IMG/Topologia.png)
+![](../IMG/MODULO17IMG/Topologia.png)
 
 **Redes pequeñas:** Utilizan una infraestructura básica (router, switch, punto de acceso) y una única conexión a Internet (DSL, cable o Ethernet) para conectar dispositivos variados (PC, teléfonos IP, impresoras, servidores). Son gestionadas por técnicos locales o externos.
 
