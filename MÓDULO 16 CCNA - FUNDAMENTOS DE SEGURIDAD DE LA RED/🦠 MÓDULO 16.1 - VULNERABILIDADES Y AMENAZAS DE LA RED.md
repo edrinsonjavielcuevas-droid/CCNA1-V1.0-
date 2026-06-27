@@ -12,19 +12,19 @@ Los **actores de amenazas** (atacantes) explotan vulnerabilidades de software, h
 
 **Manipulación y pérdida de datos:** Alteración, corrupción o destrucción maliciosa de datos. Esto puede realizarse para sabotear operaciones, alterar registros o solicitar rescates (como en el caso del _ransomware_). Afecta directamente la **integridad** de la información.
 
-![](Manipulación%20y%20pérdida%20de%20datos.png)
+![](../IMG/MODULO16IMG/Manipulación%20y%20pérdida%20de%20datos.png)
 
 ---
 
 **Robo de identidad:** Obtención de credenciales de inicio de sesión (usuarios y contraseñas) o información personal para hacerse pasar por un usuario legítimo. Esto permite al atacante escalar privilegios dentro del sistema o cometer fraudes utilizando la confianza asociada a ese perfil.
 
-![697](Robo%20de%20identidad.png)
+![697](../IMG/MODULO16IMG/Robo%20de%20identidad.png)
 
 ----
 
 **Interrupción del servicio:** Ataques diseñados para degradar o colapsar sistemas, evitando que los usuarios legítimos accedan a los recursos o servicios de la red. El ejemplo más clásico es el ataque de denegación de servicio (DoS o DDoS). Afecta directamente la **disponibilidad**.
 
-![](Interrumción%20de%20servicio.png)
+![](../IMG/MODULO16IMG/Interrumción%20de%20servicio.png)
 
 ---
 
@@ -34,19 +34,19 @@ Los **actores de amenazas** (atacantes) explotan vulnerabilidades de software, h
 
 **Tecnológicas**
 
-![](Tecnologicas.png)
+![](../IMG/MODULO16IMG/Tecnologicas.png)
 
 ---
 
 **Configuración**
 
-![](COnfiguración.png)
+![](../IMG/MODULO16IMG/COnfiguración.png)
 
 ---
 
 **Política**
 
-![](Política.png)
+![](../IMG/MODULO16IMG/Política.png)
 
 ---
 
@@ -66,7 +66,7 @@ La seguridad física es vital; si los dispositivos se comprometen físicamente, 
 
 **Planifique la seguridad física para limitar el daño al equipo:**
 
-![](Seguridad%20fisica.png)
+![](../IMG/MODULO16IMG/Seguridad%20fisica.png)
 
 ---
 
