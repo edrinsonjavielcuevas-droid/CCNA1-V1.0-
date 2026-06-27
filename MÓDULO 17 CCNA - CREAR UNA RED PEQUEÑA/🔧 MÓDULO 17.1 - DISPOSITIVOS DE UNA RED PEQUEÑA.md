@@ -31,11 +31,11 @@ Este esquema de direccionamiento organiza una red mediante **segmentación lógi
 
 **Escalabilidad:** Deja espacio suficiente dentro de cada bloque para futuras adiciones de dispositivos sin romper el esquema ni causar conflictos de solapamiento.
 
-![](Topologia%201.png)
+![](../IMG/MODULO17IMG/Topologia%201.png)
 
-![](Ips.png)
+![](../IMG/MODULO17IMG/Ips.png)
 
-![](3ra%20subred.png)
+![](../IMG/MODULO17IMG/3ra%20subred.png)
 
 En resumen, este método convierte un espacio de direcciones plano en una **estructura jerárquica y predictiva**, lo que agiliza drásticamente las tareas de monitoreo, seguridad y resolución de problemas.
 
@@ -53,13 +53,13 @@ La **redundancia** es esencial en el diseño de redes, incluso para pequeñas em
 
 **Estrategia de Internet:** Dado que muchas redes pequeñas dependen de un único router, se recomienda contratar a un segundo proveedor de servicios (ISP) como respaldo para mantener la conexión activa si el gateway principal falla.
 
-![](Redundancia.png)
+![](../IMG/MODULO17IMG/Redundancia.png)
 
 ---
 
 La administración del tráfico en redes pequeñas busca maximizar la productividad y minimizar la inactividad mediante la implementación de políticas de **Calidad de Servicio (QoS)**, las cuales clasifican y priorizan el flujo de datos según su importancia. Dado que el tráfico en tiempo real, como la voz (VoIP) y el vídeo, es altamente sensible a la latencia, los routers y switches deben configurarse para gestionar estos servicios de forma independiente y preferente frente al tráfico de datos convencional, garantizando así la fluidez de las comunicaciones críticas incluso bajo condiciones de alta carga.
 
-![](Administracion%20de%20trafico.png)
+![](../IMG/MODULO17IMG/Administracion%20de%20trafico.png)
 
 ----
 
