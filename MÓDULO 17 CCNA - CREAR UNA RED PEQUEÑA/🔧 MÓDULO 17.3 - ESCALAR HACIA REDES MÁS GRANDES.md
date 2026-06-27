@@ -33,7 +33,7 @@ La información recopilada se evalúa basándose en el **origen, destino y tipo 
 
 Esta metodología convierte la observación pasiva en una estrategia activa para mejorar la eficiencia y escalabilidad de la red.
 
-![](WIreshark.png)
+![](../IMG/MODULO17IMG/WIreshark.png)
 
 ---
 
@@ -52,7 +52,7 @@ Un cambio en la utilización de los recursos puede obligar al administrador a aj
 La herramienta de Uso de datos se accede a través de: **Settings > Network & Internet > Data usage > network interface**.
 
 
-![](Detalles%20de%20uso.png)
+![](../IMG/MODULO17IMG/Detalles%20de%20uso.png)
 
 ----
 
