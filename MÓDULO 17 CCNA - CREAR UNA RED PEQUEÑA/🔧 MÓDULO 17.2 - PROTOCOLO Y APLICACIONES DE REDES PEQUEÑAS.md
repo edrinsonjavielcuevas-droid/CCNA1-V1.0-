@@ -9,7 +9,7 @@ Para que una red sea funcional, debe soportar programas que facilitan la comunic
 
 Sin estos protocolos y servicios, la red no tendría un estándar común para direccionar o dar formato a la información. En sistemas como Windows, puedes observar esta distinción utilizando el **Administrador de tareas**, donde se diferencian claramente las aplicaciones de usuario de los procesos y servicios de red que mantienen la conectividad activa.
 
-![697](Aplicaciones%20de%20red.png)
+![697](../IMG/MODULO17IMG/Aplicaciones%20de%20red.png)
 
 ---
 
@@ -72,7 +72,7 @@ HTTP ➔ **HTTPS**
 
 ---
 
-![](Protocolos%20comunes.png)
+![](../IMG/MODULO17IMG/Protocolos%20comunes.png)
 
 ---
 
